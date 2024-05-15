@@ -15,43 +15,47 @@ Imagine it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are 
 
 3. Enter the name **Contoso-KQL-DB**, click on the **Create** button and wait for the database to be created.
 
+```BASH
+Contoso-KQL-DB
+```
+
 	![Close the browser.](mediaNew/task-5.1.4.png)
 
-4. Click on the **contosoSales** workspace from left navigation pane.
+5. Click on the **contosoSales** workspace from left navigation pane.
 
    ![Close the browser.](mediaNew/task-5.2.1new1.png)
 
-5. Click on the **+ New** button.
+6. Click on the **+ New** button.
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.png)
 
-6. Select **Eventstream**.
+7. Select **Eventstream**.
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.1.png)
 
-7. Enter the name as **RealtimeDataTo-KQL-DB** and click on **Create** button.
+8. Enter the name as **RealtimeDataTo-KQL-DB** and click on **Create** button.
+
+```BASH
+RealtimeDataTo-KQL-DB
+```
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.2.png)
 
-8. Click on the **Add Source** button.
+10. Click on the **Add Source** button.
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.3.png)
 
-9. Click on the **Azure Event Hub** button.
+11. Click on the **Azure Event Hub** button.
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.4.png)
 
-10. To fill in the fields below we need to navigate to Azure Portal.
+11. To fill in the fields below we need to navigate to Azure Portal.
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.5.png)
 
 11. Navigate to the **Azure Portal**. In the **rg-fabric...** resource group, search for the **event hubs namespace** and click on the **Event Hubs Namespace** resource.
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.6.png)
-
-12. Copy the name of the **Event Hub namespace** and paste it in a notepad for further use.
-
-   ![Close the browser.](mediaNew/task-5.2.1new1.0.7.png)
 
 13. In the left navigation pane expand the **Entities** section, click on **Event Hubs**, and then click on the **thermostat** event hub.
 
@@ -67,8 +71,14 @@ Imagine it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are 
 
 16. Go back to the **Fabric tab** on your browser.
 
-17. Make sure you are in the **Create new connection** section, paste the value for **Event Hub namespace** from **step 9** and enter the **Event Hub** value as **thermostat**.
+17. Make sure you are in the **Create new connection** section, paste the below value for **Event Hub namespace** and enter the **Event Hub** value as **thermostat**.
 
+```BASH
+<inject key= "eventhubNamespace" enableCopy="true"/>
+```
+```BASH
+thermostat
+```
    ![Close the browser.](mediaNew/task-5.2.5-2.png)
 
 18. Scroll down and select **Shared Access Key** for Authentication kind, enter **thermostat** as the Shared Access Key Name and then paste the value copied in **step 12** in the **Shared Access Key**.
@@ -93,14 +103,21 @@ Imagine it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are 
 
 23. Select the **Event processing before ingestion** radio button, enter **RealTimeData** as the Destination name.
 
-24. Select **contosoSales...** and **Contoso-KQL-DB** from the respective 'Workspace' and 'KQL Database' dropdowns.
+```BASH
+RealTimeData
+```
 
-25. Finally click on the **Create new** button.
+25. Select **contosoSales...** and **Contoso-KQL-DB** from the respective 'Workspace' and 'KQL Database' dropdowns.
+
+26. Finally click on the **Create new** button.
 
    ![Close the browser.](mediaNew/task-5.2.12.png)
 
 26. Enter the table name as **thermostat** and then click on the **Done** button.
 
+```BASH
+thermostat
+```
    ![Close the browser.](mediaNew/task-5.2.13.png)
 
 27. Enter the Input data format as **Json**.
@@ -135,6 +152,10 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
 4. Enter **Query Thermostat Data in Near Real-time using KQL Script** as the name and click on the **Create** button.
 
+```BASH
+Query Thermostat Data in Near Real-time using KQL Scrip
+```
+
 ![Close the browser.](mediaNew/task-5.3.3.png)
 
 5. **Wait** for the query set creation and a new screen will display. In this screen, click on **Contoso-KQL-DB**, verify the workspace name and then click on the **Select** button.
@@ -151,7 +172,7 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
 6. **Paste** the query provided below in the query section.
 
-```
+```BASH
 What is the average temperature every 1 min?
 ```
 
@@ -167,7 +188,7 @@ What is the average temperature every 1 min?
 
 *Similarly you can use the below prompts*
 
-```
+```BASH
 Are there any anomalies for this device?
 ```
 
