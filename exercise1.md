@@ -7,9 +7,7 @@
 ```BASH
    <inject key= "WebAppBrowse" enableCopy="true"/>
 ```
------
-
-1. **Wait** for the page to load. The following page will appear.
+2. **Wait** for the page to load. The following page will appear.
 
 ![Simulator.](mediaNew/task-1.3.png)
 
