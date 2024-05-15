@@ -58,13 +58,6 @@
 
 `Note: After getting signed in to the Azure Portal, if you see a popup "Welcome to Microsoft Azure" click on "Maybe Later" to skip the tour and close the window.`
 
-6. Now you will see the Azure Portal Dashboard, Click on search bar and search for "fabric-dpoc" Resource Group and select the Resource Group.
-
-![Started.](GetStarted/Task11.png)
-
-
-`Note: In the Resource Group there will be 7 resources.`
-
 #
 
 `Note: If you are facing any issue while opening something in the JumpVM/Bastion like downloading html file, press *ctrl + Shift + R* or refresh the main browser page to resolve the issue.`
