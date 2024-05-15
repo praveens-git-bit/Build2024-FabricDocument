@@ -16,7 +16,7 @@
 
     - Environment Details
     - Resources
-    - Help
+    - Help (Please click on three dots/eclipse for help)
 
 ![Started.](GetStarted/Task4.png)
 
