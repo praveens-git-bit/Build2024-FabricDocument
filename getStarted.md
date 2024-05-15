@@ -30,7 +30,7 @@
 
 1. In the JumpVM/Bastion, click on the Azure portal shortcut of the Microsoft Edge browser, which is created on the desktop.
 
-![Started.](GetStarted/Task6.png)
+![Started.](GetStarted/Task1.png)
 
 2. If you see the popup notification to Restore pages, close it.
 
