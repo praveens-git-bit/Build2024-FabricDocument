@@ -3,36 +3,13 @@
 
 *Before we start executing the steps, we will trigger the simulator app to start streaming data to eventhub.*
 
+1. Copy the below URL and paste it in the browser to get the streaming started.
 ```BASH
-   <inject key= "NameSpaceBrowse" enableCopy="true"/>
+   <inject key= "WebAppBrowse" enableCopy="true"/>
 ```
 -----
 
-1. Search for **resource group** in the search bar at the top of the page and click on the **Resource groups** option.
-
-![Simulator.](mediaNew/task-1.1-new.png)
-
-2. Search for **rg-fabric-adb** in the searchbox and click on the **resource group**.
-
-```bash
-   rg-fabric-adb
-```
-
-![Simulator.](mediaNew/task-1.1-new5.png)
-
-3. Search for **app service** and select the app service labeled **app-realtime-simulator...**
-
-```bash
-<inject key= "AppService" enableCopy="true"/>
-```
-
-![Simulator.](mediaNew/task-1.1.png)
-
-4. Click on the **Browse** button and a new tab will open.
-
-![Simulator.](mediaNew/task-1.2.png)
-
-5. **Wait** for the page to load. The following page will appear.
+1. **Wait** for the page to load. The following page will appear.
 
 ![Simulator.](mediaNew/task-1.3.png)
 
