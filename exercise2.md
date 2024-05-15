@@ -48,7 +48,7 @@ DLT_Pipeline
 
 ---
 
-### Task 2.2: Explore the data in Azure Databricks environment with Unity Catalog (unified governance solution for data and AI).
+### Task 2.2: Explore the data in Azure Databricks environment with Unity Catalog (unified governance solution for data and AI). -- Will be converted to click-by-click.
 	
 With the acquisition of Litware Inc., Contoso had a lot of data integration and interoperability challenges. Contoso wanted to make sure that the transition was smooth and data engineers and scientists from Contoso could easily assimilate the data processed by Databricks. Thankfully, they had the help from Gen AI features right within Azure Databricks to understand and derive insights from this data. Let's see how!
 	
