@@ -48,9 +48,13 @@ DLT_Pipeline
 
 ---
 
-### Task 2.2: Explore the data in Azure Databricks environment with Unity Catalog (unified governance solution for data and AI). -- Will be converted to click-by-click.
+### Task 2.2: Explore the data in Azure Databricks environment with Unity Catalog (unified governance solution for data and AI). -- click-by-click.
 	
+We saw how Contoso was able to utilize DLT pipelines to create a medallion architecture on their data. Now let us take a look at how data governance was managed on this curated data across the organization and how it was made easy with Unity catalog.
+
 With the acquisition of Litware Inc., Contoso had a lot of data integration and interoperability challenges. Contoso wanted to make sure that the transition was smooth and data engineers and scientists from Contoso could easily assimilate the data processed by Databricks. Thankfully, they had the help from Gen AI features right within Azure Databricks to understand and derive insights from this data. Let's see how!
+
+**Note**: Following steps will be executed Click-by-click due to time considerations for setting up the unity catalog. Please follow the green beacons for this exercise.
 	
 1.	Click on **Catalog**.
 
@@ -122,83 +126,8 @@ Data discovery is also made simple within Azure Databricks. Users can simply sea
 
 Contoso also wanted to improve their efficientcy with analyzing hundreds of documents about their big merger and their company policies. Azure Databricks provides just the solution with its Delta Lake architecture supporting unstructured data, like PDF documents, with Lang chain models leveraging Databricks Foundation Model for creating custom chatbots. Let's see how this was done.
 
-![Databricks.](mediaNew/task-2.3.1.png)
+**Note**: Following steps will be executed Click-by-click due to time considerations for setting up the unity catalog. Please follow the green beacons for this exercise.
 
-First, let's ingest our PDFs as a Delta Lake table with path URLs and content in binary format.
-
-1.	Go to **Unity Catalog Volumes**.
-
-2.	Click on **documents_store**.
-
-![Databricks.](mediaNew/task-2.3.1.a.new.png)
-
-3.	Click on **pdf_documents**.
-
-4.	Review the Knowledge Base (pdfs).
-
-![Databricks.](mediaNew/task-2.3.2new.png)
-
-We'll use Databricks Autoloader to incrementally ingeset new files, making it easy to incrementally consume large volume of files from the data lake in various data formats. Autoloader easily ingests our unstructured PDF data in binary format.
-
-5. Click on **Workspaces**
-
-![Databricks.](mediaNew/task-2.3.3new.png)
-
-6. Open the notebook from the path shown in the screenshot below.
-
-![Databricks.](mediaNew/task-2.3.3.a.new.png)
-
-This notebook is used to convert the ingested document into delta tables. Lets look at the output tables.
-
-7. Click on **Catalog** and under **rag** database, click on the **documents_raw** table.
-
-![Databricks.](mediaNew/task-2.3.3.b.new.png)
-
-8.	Click on **Sample Data**.
-
-9.	Review the delta table.
-
-![Databricks.](mediaNew/task-2.3.4new.png)
-
-Next we convert the PDF documents bytes to text, extract chunks from their content, and create a vector search index for retreival.
-
-10.	Go to table: **documents_embedding**.
-
-![Databricks.](mediaNew/task-2.3.4.a.new.png)
-
-11.	Click **Sample Data**.
-
-12.	Review the Delta Table.
-
-![Databricks.](mediaNew/task-2.3.4.b.new.png)
-
-13.	In the upper-right corner, click on the dropdown for **Create**.
-
-14.	Select **Vector search index**. Click on **Cancel** after reviewing the fields.
-
-![Databricks.](mediaNew/task-2.3.6new.png)
-
-We've just seen how Databricks Lakehouse AI makes it easy to ingest and prepare your documents and deploy a Self-Managed Vector Search index on top of it with just a few lines of code and configuration.
-
-15. Click on **Workspace**.
-
-16. Click on **Shared**.
-
-17. Click on **RetrievalAugmentedGeneration**.
-
-![Databricks.](mediaNew/task-2.3.7.a.new.png)
-
-18. Click on notebook **3. Register and Deploy RAG model as Endpoint**.
-
-![Databricks.](mediaNew/task-2.3.7.new.png)
-
-With this model, we will be able to serve and accept questions based on the documents uploaded.
-Everytime we send a question to the chatbot, the following steps occur:
-•	The model receiv  es the question
-•	The retriever automatically fetches related chunks from our documents
-•	A prompt is crafted with the chunks and the question
-•	The prompt is sent to the Databricks Foundation Model and Llama 2 serves an accurate answer based on the chunk information!
-
-You will witness this in action [here](https://app-ms-build-2024-demo.azurewebsites.net/#/enterprise-chatbot).
-
----
+```BASH
+https://regale.cloud/Microsoft/viewer/3067/task-23-deploy-llm-chatbots-with-the-data-intelligence-platform/index.html#/0/0
+```
