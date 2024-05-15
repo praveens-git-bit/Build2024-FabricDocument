@@ -40,13 +40,17 @@ Let us dive deep into the experience of the Business analyst, Wendy. Based on al
 
    ![Simulator.](mediaNew/task-new4.png)
 
-5. Enter **website_bounce_rate_model** in the Name field. 
+5. Enter **website_bounce_rate_model** in the Name field.
 
-6. Select workspace as **contosoSales...** and scroll down.
+```BASH
+website_bounce_rate_model
+```
+
+7. Select workspace as **contosoSales...** and scroll down.
 
    ![Simulator.](mediaNew/task-new5.png)
 
-7. Select **website_bounce_rate** table and click on the **Confirm** button. 
+8. Select **website_bounce_rate** table and click on the **Confirm** button. 
 
    ![Simulator.](mediaNew/task-new6.png)
 
@@ -101,22 +105,25 @@ Based on this report, we notice that the website bounce rate for Contoso is espe
 Let's ask Copilot for suggestions based on the results and data in the report. 
 
 18. Enter the following prompt in Copilot, **Based on the data in the report, what can be done to improve the bounce rate of millennials?** and press **Send** button.
+```BASH
+Based on the data in the report, what can be done to improve the bounce rate of millennials?
+```
 	
       ![Simulator.](mediaNew/task-new13.png)
 	
-19. Observe the suggestions provided by Copilot. 
+20. Observe the suggestions provided by Copilot. 
 	
       ![Simulator.](mediaNew/task-new14.png)
 	
-20. Expand the **Visualizations** pane and select the **Narratives** visual. 
+21. Expand the **Visualizations** pane and select the **Narratives** visual. 
 
-21. Click on **Copilot (preview)** within the visual.
+22. Click on **Copilot (preview)** within the visual.
 
       ![Simulator.](mediaNew/task-new15.png)
 	
-22. Select **Give an executive summary**. 
+23. Select **Give an executive summary**. 
 
-23. Click on **Update** and observe the generated summary. 
+24. Click on **Update** and observe the generated summary. 
  
       ![Simulator.](mediaNew/task-new16.png)
 	
