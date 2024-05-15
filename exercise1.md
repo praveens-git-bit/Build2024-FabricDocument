@@ -36,7 +36,7 @@ https://app.powerbi.com
 4. Copy paste the name of the **Workspace** in the name field and click **Apply**.
 
 ```BASH
-   <inject key= "Workspace" enableCopy="true"/>
+   <inject key= "WorkspaceName" enableCopy="true"/>
 ```
    ![Create Power BI Workspace.](mediaNew/task-1.1.3.png)
 
@@ -62,7 +62,7 @@ https://app.powerbi.com
 9. Enter the name **lakehouse**.
 
 ```BASH
-lakehouse
+   <inject key= "lakehouseName" enableCopy="true"/>
 ```
 
 10. Click the **Create** button.
@@ -78,6 +78,12 @@ lakehouse
 ```BASH
 https://app.fabric.microsoft.com
 ```
+**Note**: If you are seeing "Enter your email, we'll check if you need to create a new account" please provide the email ID you provided to signin into Azure.
+
+```BASH
+<inject key= "AzureAdUserEmail" enableCopy="true"/>
+```
+
 13. On the Microsoft Fabric landing page, click on the **Data Factory** experience.
 
 ![Pipeline.](mediaNew/task-1.3.01.png)
@@ -97,7 +103,7 @@ https://app.fabric.microsoft.com
 17. In the pop-up, type the pipeline name **Azure SQL DB Pipeline** and click on the **Create** button.
 
 ```BASH
-   Azure SQL DB Pipeline
+Azure SQL DB Pipeline
 ```
 
 ![Pipeline.](mediaNew/task-1.3.3.png)
@@ -114,7 +120,7 @@ https://app.fabric.microsoft.com
 
 20. Select the **Create new connection** radio button.
 
->**Note:** To fill in the details for required fileds, we need to fetch the data from the SQL Database resource deployed in the Azure Portal, due to the time constrain we have provided the details below.
+>**Note:** To fill in the details for required fields, we need to fetch the data from the SQL Database resource deployed in the Azure Portal, due to the time constrain we have provided the details below.
 
 ![Pipeline.](mediaNew/task-1.3.6.png)
 
@@ -127,7 +133,7 @@ https://app.fabric.microsoft.com
 22. Enter **SalesDb** in the **Database** field.
 
 ```BASH
-   SalesDb
+SalesDb
 ```
 ![Datawarehouse.](mediaNew/task-1.3.15.png)
 
@@ -221,6 +227,8 @@ Now this is something exciting! This section shows how easy it is to create shor
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut5.png)
 
+**Note**: Due the the screen size of VM, user will not able to see left navigation bar, please click on the "Hamburger sign* from the above to navigate to the **Security + Networking** and click on the expand button.
+
 8. Expand the **Security + networking** section and click on **Access keys**.
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut5.2.png)
@@ -258,6 +266,19 @@ Now this is something exciting! This section shows how easy it is to create shor
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut10.png)
 
+22. Click on the newly created shortcut named data.
+
+![Lakehouse.](mediaNew/task-wb7.png)
+
+23. Scroll down in the **middle of the screen**, click on the **three dots (Elipse)** on the right side of **website_bounce_rate.csv**.
+
+24. Click on **Load to Tables** and select **New table**.
+
+![Lakehouse.](mediaNew/task-wb8.png)
+
+25. In the pop-up verify the **New table name** and then click on the **Load** button.
+
+![alt text](mediaNew/task-new3.png)
 
 ---
 
@@ -285,6 +306,8 @@ In this exercise, you will experience how easy it is to use Copilot to transform
 
 ![Datawarehouse.](mediaNew/task-1.2.05.png)
 
+**Note**: User might see a popup page of datasource to select, and might not able to see any option, please click on next to continue with the lakehouse connection.
+
 6. Click on the **Next** button.
 
 ![Datawarehouse.](mediaNew/task-1.2.05.1.png)
@@ -296,7 +319,7 @@ In this exercise, you will experience how easy it is to use Copilot to transform
 8. Click on the **Copilot** button, paste the **prompt** provided below in the text box and click on the **send** icon.
 
 ```BASH
-Use first row as header
+Use first row as header in sales_data table
 ```
 
 ![Datawarehouse.](mediaNew/task-1.2.07.png)
@@ -304,7 +327,7 @@ Use first row as header
 9. Similarly, you can paste the following prompts in Copilot for data transformation.
 
 ```BASH
-Remove empty rows from GrossRevenue and NetRevenue column
+Remove empty rows from GrossRevenue and NetRevenue column in sales_data table
 ```
 
 >**Note:** Due to time constraints, we will not be publishing and running the Dataflow from the Pipeline.
