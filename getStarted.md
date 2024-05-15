@@ -56,7 +56,11 @@
 
 ![Started.](GetStarted/Task10.png)
 
-`Note: After getting signed in to the Azure Portal, if you see a popup "Welcome to Microsoft Azure" click on "Maybe Later" to skip the tour and close the window.`
+6. If you see the popup sign in to *Microsoft Edge* as shown below, click on **No, thanks**.
+
+![Started.](GetStarted/Task12.png)   
+
+`Note: After getting signed in to the Azure Portal, if you see a popup "Welcome to Microsoft Azure" click on "Cancel" to skip the tour and close the window.`
 
 #
 
