@@ -18,8 +18,7 @@ Imagine it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are 
 ```BASH
 Contoso-KQL-DB
 ```
-
-	![Close the browser.](mediaNew/task-5.1.4.png)
+![Close the browser.](mediaNew/task-5.1.4.png)
 
 5. Click on the **contosoSales** workspace from left navigation pane.
 
