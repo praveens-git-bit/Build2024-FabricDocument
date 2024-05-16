@@ -186,6 +186,8 @@ Query Thermostat Data in Near Real-time using KQL Script
 
 6. **Paste** the query provided below in the query section.
 
+Note: *If you see the answer not sure, please move ahead with the next step, as realtime copilot doesn't behave as expected*
+
 ```BASH
 What is the average temperature every 1 min?
 ```
