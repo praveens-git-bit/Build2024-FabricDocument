@@ -1,12 +1,10 @@
 
-### **Modern Analytics with Microsoft Fabric,Copilot and Azure Databricks DREAM Lab (Lab332)**
-
- 
+# **Modern Analytics with Microsoft Fabric,Copilot and Azure Databricks DREAM Lab (Lab332)**
 **The estimated time to complete this lab is 45-60 minutes.**
  
 ## **Table of Contents**
  
-# **Exercise 1: Data Engineering experience, Data ingestion from a spectrum of analytical data sources into OneLake**
+## **Exercise 1: Data Engineering experience, Data ingestion from a spectrum of analytical data sources into OneLake**
  
  - Task 1.1: Use the Data Pipelines/Data Flow ‘No Code-Low Code experience’
 
@@ -16,7 +14,7 @@
  
 
 
-# **Exercise 2: DLT Pipelines, Unity Catalog (Data governance), Metastore experience, Retrieval Augmented Generation (RAG) and Machine Learning (ML)**
+## **Exercise 2: DLT Pipelines, Unity Catalog (Data governance), Metastore experience, Retrieval Augmented Generation (RAG) and Machine Learning (ML)**
  
  - Task 2.1: Explore Delta Live Table pipeline (Data Transformation)
  
@@ -25,24 +23,24 @@
  - Task 2.3 Deploy LLM Chatbots With the Data Intelligence Platform 
 
  
-# **Exercise 3: Power BI Experience**
+## **Exercise 3: Power BI Experience**
  
 - Task 3.1: Create a Semantic model and generate insights using Copilot for Power BI
 
 
-# **Exercise 4: Real-time Analytics experience - Explore Streaming data using Copilot for KQL DB (optional)**
+## **Exercise 4: Real-time Analytics experience - Explore Streaming data using Copilot for KQL DB (optional)**
  
 - Task 4.1: Ingest real-time/historical data into KQL DB using Eventstream
  
 - Task 4.2: Analyze/discover patterns, identify anomalies and outliers using Copilot
 
 
-# **Exercise 5: Data Science experience - Explore Machine Learning and Business Intelligence scenarios in ADB (read only)**
+## **Exercise 5: Data Science experience - Explore Machine Learning and Business Intelligence scenarios in ADB (read only)**
  
 - Task 5.1: Build ML models, experiments, and log ML model in the built-in model registry using MLflow and batch scoring
 
 
-# OVERVIEW
+### OVERVIEW
 
 ---
  ![Simulator.](mediaNew/buildarch.png)
