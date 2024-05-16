@@ -318,7 +318,7 @@ In this exercise, you will experience how easy it is to use Copilot to transform
 
 ![Datawarehouse.](mediaNew/task-1.2.05.1.png)
 
-7. Expand **Lakehouse**, **contosoSales...**, **Files**, **data** and check the **sales_data.csv** checkbox, then **click** on the **Create** button.
+7. Expand **Lakehouse** > **contosoSales...** > **Lakehouse...** > **Files** > **data** and check the **sales_data.csv** checkbox, then **click** on the **Create** button.
 
 ![Datawarehouse.](mediaNew/task-1.2.06.png)
 
@@ -333,7 +333,7 @@ Use first row as header in sales_data table
 9. Similarly, you can paste the following prompts in Copilot for data transformation.
 
 ```BASH
-Remove empty rows from GrossRevenue and NetRevenue column in sales_data table
+Remove empty rows from GrossRevenue and NetRevenue column from sales_data table
 ```
 
 >**Note:** Due to time constraints, we will not be publishing and running the Dataflow from the Pipeline.
