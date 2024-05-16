@@ -36,11 +36,13 @@ c. In the pop-up verify the **New table name** and then click on the **Load** bu
 
 *Once the **website_bounce_rate** delta table is there, we can proceed with the steps ahead*
 
-4. Click on the **New semantic model**. 
+4. Click on the **New semantic model**.
+
+Note: *wait for new semantic model page to popup.*
 
    ![Simulator.](mediaNew/task-new4.png)
 
-5. Enter **website_bounce_rate_model** in the Name field.
+6. Enter **website_bounce_rate_model** in the Name field.
 
 ```BASH
 website_bounce_rate_model
@@ -74,7 +76,9 @@ The first option, “What’s in my dataset?’ provides an overview of the cont
 
 12. Click on the **Prompt Guide** button. 
 
-13. Select the option **Suggest content for this page**. 
+13. Select the option **Suggest content for this page**.
+
+Note: *If the answer is something went wrong* **Something went wrong. Close and reopen the Copilot pane and try again.** *refresh the page of the VM browser and start from step 11 to open the copilot and perform the following steps.*
 
    ![Simulator.](mediaNew/task-new10.png)
 	
