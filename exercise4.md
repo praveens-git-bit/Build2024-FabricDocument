@@ -5,6 +5,10 @@ Imagine it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are 
 
 ### Task 4.1: Ingest real-time/historical data into KQL DB using Eventstream
 
+1. Click on **Workspaces** and select the **contosoSales...** workspace.
+
+![Create Power BI Workspace.](mediaNew/task-1.1-new4.png)
+
 1. While you are in the Fabric workspace homepage, click on **+ New** and then click on **More options**.
 
 	![Close the browser.](mediaNew/task-1.2.1.png)
