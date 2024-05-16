@@ -167,7 +167,7 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 4. Enter **Query Thermostat Data in Near Real-time using KQL Script** as the name and click on the **Create** button.
 
 ```BASH
-Query Thermostat Data in Near Real-time using KQL Scrip
+Query Thermostat Data in Near Real-time using KQL Script
 ```
 
 ![Close the browser.](mediaNew/task-5.3.3.png)
