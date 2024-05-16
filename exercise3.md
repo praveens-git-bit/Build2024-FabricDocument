@@ -108,8 +108,7 @@ Let's ask Copilot for suggestions based on the results and data in the report.
 ```BASH
 Based on the data in the report, what can be done to improve the bounce rate of millennials?
 ```
-	
-      ![Simulator.](mediaNew/task-new13.png)
+![Simulator.](mediaNew/task-new13.png)
 	
 20. Observe the suggestions provided by Copilot. 
 	
