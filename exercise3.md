@@ -21,15 +21,15 @@ Let us dive deep into the experience of the Business analyst, Wendy. Based on al
 
 >**Note:** In case you do not see the 'website_bounce_rate' under the Tables section of the lakehouse, follow the below steps. If you are able to see it, please continue with step 4.
 
-	a. Click on **data**.
+a. Click on **data**.
 
 ![Simulator.](mediaNew/task-new1.png)
 
-	b. Click on the **ellipse**(three icons) in front of **website_bounce_rate.csv**, select **Load to Tables** and then select **New Table**.
+b. Click on the **ellipse**(three icons) in front of **website_bounce_rate.csv**, select **Load to Tables** and then select **New Table**.
 
 ![Simulator.](mediaNew/task-new2.png)
 
-	c. In the pop-up verify the **New table name** and then click on the **Load** button.
+c. In the pop-up verify the **New table name** and then click on the **Load** button.
 
 ![alt text](mediaNew/task-new3.png)
 
