@@ -312,7 +312,7 @@ In this exercise, you will experience how easy it is to use Copilot to transform
 
 ![Datawarehouse.](mediaNew/task-1.2.05.1.png)
 
-7. Expand **Lakehouse**, **contosoSales...**, **Files** and check the **sales_data.csv** checkbox, then **click** on the **Create** button.
+7. Expand **Lakehouse**, **contosoSales...**, **Files**, **data** and check the **sales_data.csv** checkbox, then **click** on the **Create** button.
 
 ![Datawarehouse.](mediaNew/task-1.2.06.png)
 
