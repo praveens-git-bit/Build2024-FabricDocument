@@ -25,13 +25,13 @@ https://app.powerbi.com
 
 *Close* the top bar for a better view.
 
-   ![Create Power BI Workspace.](mediaNew/task-1.1-new1.png)
+![Create Power BI Workspace.](mediaNew/task-1.1-new1.png)
 
 2. In Power BI service, click on **Workspaces**.
 
 3. Click the **+ New workspace** button.
 
-	![Create Power BI Workspace.](mediaNew/task-1.1.2.png)
+![Create Power BI Workspace.](mediaNew/task-1.1.2.png)
 
 4. Copy paste the name of the **Workspace** in the name field and click **Apply**.
 
@@ -49,11 +49,11 @@ https://app.powerbi.com
 
 6. In Power BI service, click **+ New** and then select **More options**.
 
-   ![Close the browser.](mediaNew/task-1.2.1.png)
+![Close the browser.](mediaNew/task-1.2.1.png)
 
 7. In the new window, under the Data Engineering section, click on **Lakehouse**.
 
-    ![Close the browser.](mediaNew/task-1.2.2.png)
+   ![Close the browser.](mediaNew/task-1.2.2.png)
 
 *Wait for the New lakehouse pop-up box to appear*
 
@@ -65,7 +65,7 @@ https://app.powerbi.com
 
 10. Click the **Create** button.
 
-    ![Close the browser.](mediaNew/task-1.2.3.png)
+![Close the browser.](mediaNew/task-1.2.3.png)
 
 11. Open a new tab on your browser and navigate to Microsoft Fabric at 
 ```BASH
