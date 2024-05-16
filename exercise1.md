@@ -17,7 +17,7 @@
 
 In this exercise, you will act as the Data Engineer and transfer Contoso's data from Azure SQL Database into the Lakehouse. 
 
-1. Open **PowerBI** in a new tab by going to 
+1. Open **Power BI** in a new tab by going to 
 
 ```BASH
 https://app.powerbi.com
@@ -149,9 +149,9 @@ Smoothie@2024
 
 23. Click on the **checkbox** for **Select all** and then click on the **Next** button.
 
-![Datawarehouse.](mediaNew/task-1.3.17.png)
-
 Note: *Wait for the source to be appeared.*
+
+![Datawarehouse.](mediaNew/task-1.3.17.png)
 
 27. Scroll down and click on **Lakehouse**, then click on the **Next** button.
 
@@ -161,13 +161,12 @@ Note: *Wait for the source to be appeared.*
 
 ![Datawarehouse.](mediaNew/task-1.3.19.png)
 
-Note: *Wait for the source to be appeared.*
-
 29. Select the **Load to new table** radio button, click on the **checkbox** beside **Source** and then click on **Next**.
+Note: *Wait for the mapping data source to be appeared.*
 
 ![Datawarehouse.](mediaNew/task-1.3.20.png)
 
-30. Click on **Save + Run**.
+31. Click on **Save + Run**.
 
 ![Datawarehouse.](mediaNew/task-1.3.21.png)
 
@@ -185,17 +184,23 @@ Note: *Wait for the source to be appeared.*
 
 34. Similarly, you can get data into the Lakehouses using pipelines from various other sources like Snowflake, Dataverse, etc.
 
+
+
 ---
 
 ### Task 1.2: Use ‘New Shortcut’ option from external data sources
 
-Now this is something exciting! This section shows how easy it is to create shortcuts without actually moving data. That is the power of OneLake! In this exercise, you will ingest the curated marketing and product reviews data from ADLS Gen2. 
+Now this is something exciting! This section shows how easy it is to create shortcuts without actually moving data. That is the power of OneLake! In this exercise, you will ingest the curated marketing and product reviews data from ADLS Gen2.
 
-1. In the contosoSales... workspace, click on **Filter** and select **Lakehouse**.
+1. Click on the workspace icon on the left side bar of the page.
+
+![Lakehouse.](mediaNew/task-1.1.3s.png)
+
+2. In the contosoSales... workspace, click on **Filter** and select **Lakehouse**.
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut1.png)	
 
-2. Click on the **lakehouse...**.
+3. Click on the **lakehouse...**.
 
 >**Note:** There are 3 options for lakehouse, namely Lakehouse, Dataset (default) and SQL endpoint. Make sure you select the **Lakehouse** option.
 
@@ -205,50 +210,49 @@ Now this is something exciting! This section shows how easy it is to create shor
 
 ![Lakehouse.](mediaNew/task-1note.png)
 
-3. Click on the **three dots (Elipse)** on the right side of Files.
+4. Click on the **three dots (Elipse)** on the right side of Files.
 
-4. Click on **New shortcut**.
+5. Click on **New shortcut**.
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut3.png)
 
-5. In the pop-up window, under **External sources**, select the **Azure Data Lake Storage Gen2** source.
+6. In the pop-up window, under **External sources**, select the **Azure Data Lake Storage Gen2** source.
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut4.png)
 
 >**Note:** Wait for the screen to load.
 
-6. In the screen below, we need to enter the connection details for the ADLS Gen2 shortcut. For this, we need to get the details from the Storage Account resource.
+7. In the screen below, we need to enter the connection details for the ADLS Gen2 shortcut. For this, we need to get the details from the Storage Account resource.
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut11.png)
 
-7. Navigate to the **Azure Portal** search for **resource group** in the search bar at the top of the page and click on the **Resource groups** option.
+8. Navigate to the **Azure Portal** search for **resource group** in the search bar at the top of the page and click on the **Resource groups** option.
 
 ![Simulator.](mediaNew/task-1.1-new.png)
 
-7. Search for **rg-fabric** in the searchbox and click on the **resource group**. 
+9. Search for **rg-fabric** in the searchbox and click on the **resource group**. 
 
 ![Simulator.](mediaNew/task-1.1-new5.png)
 
-7. In the **rg-fabric...** resource group search for **storage account** and click on the storage account resource.
+10. In the **rg-fabric...** resource group search for **storage account** and click on the storage account resource.
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut5.png)
 
 **Note**: Due the the screen size of VM, user will not able to see left navigation bar, please click on the "Hamburger sign* from the above to navigate to the **Security + Networking** and click on the expand button.
 
-8. Expand the **Security + networking** section and click on **Access keys**.
+11. Expand the **Security + networking** section and click on **Access keys**.
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut5.2.png)
 
-9. Click on the **Show** button under **key1**.
+12. Click on the **Show** button under **key1**.
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut6.png)
 
-10. Click on the **Copy to clickboard** button.
+13. Click on the **Copy to clickboard** button.
 
-11. Save this information in a notepad for further use.
+14. Save this information in a notepad for further use.
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut7.png)
-
 
 15. Navigate back to the **Fabric** tab.
 
@@ -269,6 +273,7 @@ Now this is something exciting! This section shows how easy it is to create shor
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut9.1.png)
 
 21. Click on the **Create** button.
+> Note: *wait for sometime to shortcut get created*
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut10.png)
 
