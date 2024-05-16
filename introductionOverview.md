@@ -1,5 +1,5 @@
 
-# **Modern Analytics with Microsoft Fabric, Copilot and Azure Databricks DREAM Lab (Lab332)**
+## **Modern Analytics with Microsoft Fabric, Copilot and Azure Databricks DREAM Lab (Lab332)**
  
 **The estimated time to complete this lab is 45-60 minutes.**
  
