@@ -21,7 +21,7 @@ Now that we've ingested and processed our customer data, we want to understand w
 
 Ultimately, we would like to understand our customers' sentiment so we can create targeted campaigns to improve our sales.
 
-3. Navigate to **cmd 10**.
+3. Navigate to **cmd 9**.
 
 With the data prepared, we can begin exploring the patterns it contains. 
 
@@ -29,15 +29,15 @@ Let's start by examining the customer churn outcome based on factors like a cust
 
 ![Close the browser.](mediaNew/task-3.1.4.png)
 
-4. Navigate to **cmd 20**.
+4. Navigate to **cmd 19**.
 
-5. Navigate to **cmd 21**. 
+5. Navigate to **cmd 20**. 
 
 ![Close the browser.](mediaNew/task-3.1.5.png)
 
 By registering this model in Model Registry, we can easily reference the model from anywhere within Databricks.    
 
-6. Review the **cmd 29** cell.
+6. Review the **cmd 28** cell.
 
 Let’s look at the comparison of multiple runs in the UI.
 
@@ -47,19 +47,19 @@ The best ML model for Customer Churn is selected and registered with Databricks 
 
 ![Close the browser.](mediaNew/task-3.1.6.png)
 
-7. Navigate to **cmd 38**.
+7. Navigate to **cmd 37**.
 
 For low-latency use cases, you can use MLflow to deploy the model for online serving. The serving system loads the Production model version from the Model Registry. 
 
 ![Close the browser.](mediaNew/task-3.1.7.png)
 
-8. Navigate to **cmd 40**.
+8. Navigate to **cmd 39**.
 
 It is then used to predict the probability of Customer Churn using the deployed model and this model endpoint is ready for production.
 
 ![Close the browser.](mediaNew/task-3.1.8.png)
 
-9. Navigate to **cmd 41**. 
+9. Navigate to **cmd 40**. 
 
 Once we have the predicted data, it is stored back in delta tables in the gold layer back in OneLake.
 
