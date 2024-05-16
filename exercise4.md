@@ -7,6 +7,8 @@ Imagine it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are 
 
 1. Click on **Workspaces** and select the **contosoSales...** workspace.
 
+Note: *If you see any pop up click on* **Don't Save.**
+
 ![Create Power BI Workspace.](mediaNew/task-1.1-new4.png)
 
 1. While you are in the Fabric workspace homepage, click on **+ New** and then click on **More options**.
