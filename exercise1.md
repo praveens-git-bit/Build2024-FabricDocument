@@ -55,8 +55,6 @@ https://app.powerbi.com
 
     ![Close the browser.](mediaNew/task-1.2.2.png)
 
-
-
 *Wait for the New lakehouse pop-up box to appear*
 
 9. Enter the name **lakehouse**.
@@ -69,12 +67,7 @@ https://app.powerbi.com
 
     ![Close the browser.](mediaNew/task-1.2.3.png)
 
-11. Click on **Workspaces** in the left navigation pane and select workspace **contosoSales...**.
-
-	![Create Power BI Workspace.](mediaNew/task-1.1-new4.png)
-
-
-12. Open a new tab on your browser and navigate to Microsoft Fabric at 
+11. Open a new tab on your browser and navigate to Microsoft Fabric at 
 ```BASH
 https://app.fabric.microsoft.com
 ```
@@ -84,23 +77,25 @@ https://app.fabric.microsoft.com
 <inject key= "AzureAdUserEmail" enableCopy="true"/>
 ```
 
-13. On the Microsoft Fabric landing page, click on the **Data Factory** experience.
+12. On the Microsoft Fabric landing page, click on the **Data Factory** experience.
 
 ![Pipeline.](mediaNew/task-1.3.01.png)
 
-14. Click on **Workspaces** and select the **contosoSales...** workspace.
+13. Click on **Workspaces** and select the **contosoSales...** workspace.
 
 ![Create Power BI Workspace.](mediaNew/task-1.1-new4.png)
 
-15. Click the **Data Factory** icon in the bottom left corner of the screen to select **Data Factory**.
+14. Click the **Data Factory** icon in the bottom left corner of the screen to select **Data Factory**.
 
 ![Pipeline.](mediaNew/task-1.3.1.png)
 
-16. Click on **Data pipeline**.
+15. Click on **Data pipeline**.
 
 ![Pipeline.](mediaNew/task-1.3.2.png)
 
-17. In the pop-up, type the pipeline name **Azure SQL DB Pipeline** and click on the **Create** button.
+*Wait for the New pipeline pop-up box to appear*
+
+16. In the pop-up, type the pipeline name **Azure SQL DB Pipeline** and click on the **Create** button.
 
 ```BASH
 Azure SQL DB Pipeline
@@ -108,36 +103,36 @@ Azure SQL DB Pipeline
 
 ![Pipeline.](mediaNew/task-1.3.3.png)
 
-18. In the Data pipeline window, click on **Copy data assistant**.
+17. In the Data pipeline window, click on **Copy data assistant**.
 
 ![Pipeline.](mediaNew/task-1.3.4.png)
 
-19. In the pop-up, scroll down through the resources, click on **Azure SQL Database** and then click on the **Next** button.
+18. In the pop-up, scroll down through the resources, click on **Azure SQL Database** and then click on the **Next** button.
 
 >**Note** You may not see the **Azure SQL Database** in the same location as shown in the screenshot.
 
 ![Pipeline.](mediaNew/task-1.3.5.png)
 
-20. Select the **Create new connection** radio button.
+19. Select the **Create new connection** radio button.
 
 >**Note:** To fill in the details for required fields, we need to fetch the data from the SQL Database resource deployed in the Azure Portal, due to the time constrain we have provided the details below.
 
 ![Pipeline.](mediaNew/task-1.3.6.png)
 
 
-21. In the **Server** field, paste the value you from the below.
+20. In the **Server** field, paste the value you from the below.
 ```BASH
  <inject key= "MssqlServer" enableCopy="true"/>
 ```
 
-22. Enter **SalesDb** in the **Database** field.
+21. Enter **SalesDb** in the **Database** field.
 
 ```BASH
 SalesDb
 ```
 ![Datawarehouse.](mediaNew/task-1.3.15.png)
 
-25. Scroll down and select **Basic** for Authentication kind, enter **labsqladmin** as the Username, **Smoothie@2024** as the Password and click on the **Next** button.
+22. Scroll down and select **Basic** for Authentication kind, enter **labsqladmin** as the Username, **Smoothie@2024** as the Password and click on the **Next** button.
 
 ```BASH
 labsqladmin
@@ -153,7 +148,7 @@ Smoothie@2024
 
 >**Note:** Wait for the connection to be created.
 
-26. Click on the **checkbox** for **Select all** and then click on the **Next** button.
+23. Click on the **checkbox** for **Select all** and then click on the **Next** button.
 
 ![Datawarehouse.](mediaNew/task-1.3.17.png)
 
