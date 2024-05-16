@@ -23,15 +23,15 @@ Let us dive deep into the experience of the Business analyst, Wendy. Based on al
 
 	a. Click on **data**.
 
-      ![Simulator.](mediaNew/task-new1.png)
+![Simulator.](mediaNew/task-new1.png)
 
 	b. Click on the **ellipse**(three icons) in front of **website_bounce_rate.csv**, select **Load to Tables** and then select **New Table**.
 
-      ![Simulator.](mediaNew/task-new2.png)
+![Simulator.](mediaNew/task-new2.png)
 
 	c. In the pop-up verify the **New table name** and then click on the **Load** button.
 
-      ![alt text](mediaNew/task-new3.png)
+![alt text](mediaNew/task-new3.png)
 
 
 *Once the **website_bounce_rate** delta table is there, we can proceed with the steps ahead*
