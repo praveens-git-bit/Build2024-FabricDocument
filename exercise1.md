@@ -221,7 +221,15 @@ Now this is something exciting! This section shows how easy it is to create shor
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut11.png)
 
-7. Navigate to the **Azure Portal**, in the **rg-fabric...** resource group search for **storage account** and click on the storage account resource.
+7. Navigate to the **Azure Portal** search for **resource group** in the search bar at the top of the page and click on the **Resource groups** option.
+
+![Simulator.](mediaNew/task-1.1-new.png)
+
+7. Search for **rg-fabric** in the searchbox and click on the **resource group**. 
+
+![Simulator.](mediaNew/task-1.1-new5.png)
+
+7. In the **rg-fabric...** resource group search for **storage account** and click on the storage account resource.
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut5.png)
 
