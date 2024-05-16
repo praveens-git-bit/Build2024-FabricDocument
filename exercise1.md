@@ -146,11 +146,12 @@ Smoothie@2024
    
 ![Datawarehouse.](mediaNew/task-1.3.16.1.png)
 
->**Note:** Wait for the connection to be created.
 
 23. Click on the **checkbox** for **Select all** and then click on the **Next** button.
 
 ![Datawarehouse.](mediaNew/task-1.3.17.png)
+
+Note: *Wait for the source to be appeared.*
 
 27. Scroll down and click on **Lakehouse**, then click on the **Next** button.
 
@@ -159,6 +160,8 @@ Smoothie@2024
 28. Click on the **Existing Lakehouse** radio button, click on the **dropdown**, select **lakehouse...** and then click on the **Next** button.
 
 ![Datawarehouse.](mediaNew/task-1.3.19.png)
+
+Note: *Wait for the source to be appeared.*
 
 29. Select the **Load to new table** radio button, click on the **checkbox** beside **Source** and then click on **Next**.
 
