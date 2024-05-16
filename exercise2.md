@@ -48,21 +48,27 @@ DLT_Pipeline
 
 ---
 
-### Task 2.2: Explore the data in Azure Databricks environment with Unity Catalog (unified governance solution for data and AI). -- click-by-click.
+### Task 2.2: Explore the data in Azure Databricks environment with Unity Catalog (unified governance solution for data and AI).
 	
 We saw how Contoso was able to utilize DLT pipelines to create a medallion architecture on their data. Now let us take a look at how data governance was managed on this curated data across the organization and how it was made easy with Unity catalog.
 
 With the acquisition of Litware Inc., Contoso had a lot of data integration and interoperability challenges. Contoso wanted to make sure that the transition was smooth and data engineers and scientists from Contoso could easily assimilate the data processed by Databricks. Thankfully, they had the help from Gen AI features right within Azure Databricks to understand and derive insights from this data. Let's see how!
 
 **Note**: Following steps will be executed Click-by-click due to time considerations for setting up the unity catalog. Please follow the green beacons for this exercise.
-	
-1.	Click on **Catalog**.
 
-2.	Expand **litware_unity_catalog db**.
+1. Open the below link of click-by-click in a new tab of VM Browser.
 
-3.	Expand the **rag** schema.
+```BASH
+https://regale.cloud/Microsoft/viewer/3066/task-22-explore-the-data-in-azure-databricks-environment-with-unity-catalog/index.html#/0/0
+```
 
-4.	Click on **silver_customerChurn** table.
+2. 	Follow the green beacons and expand **litware_unity_catalog db**.
+   
+3.	Click on **Catalog**.
+   
+5.	Expand **litware_unity_catalog db**.
+6.	Expand the **rag** schema.
+7.	Click on **silver_customerChurn** table.
 
 ![Databricks.](mediaNew/task-2.1new.png)
 
