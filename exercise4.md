@@ -135,9 +135,14 @@ thermostat
 
 28. Click on the **Publish** button.
 
-   ![Close the browser.](mediaNew/task-5.2.15.png)
+Note: *If the realtimedata is not connected to the KQL Database, connect two dots from draging from one to another. Now click on publish.*
+
+![Close the browser.](mediaNew/realtimedata.png)
 
 Real-time data from the event hub has been ingested successfully into the KQL Database.
+
+   ![Close the browser.](mediaNew/task-5.2.15.png)
+
 
 ---
 
