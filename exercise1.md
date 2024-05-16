@@ -120,7 +120,7 @@ Azure SQL DB Pipeline
 ![Pipeline.](mediaNew/task-1.3.6.png)
 
 
-20. In the **Server** field, paste the value you from the below.
+20. In the **Server** field, paste the value from the below.
 ```BASH
  <inject key= "MssqlServer" enableCopy="true"/>
 ```
