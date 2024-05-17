@@ -1,4 +1,4 @@
-**OPTIONAL EXERCISE**
+## **OPTIONAL EXERCISE**
 
 
 ### Exercise 5: Data Science experience, explore Machine Learning and Business Intelligence scenarios in ADB (read only)
