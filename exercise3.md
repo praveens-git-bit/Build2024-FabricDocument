@@ -6,6 +6,7 @@
 Great work so far. Go Contoso! With all the disparate sources data as well as Litware's data in OneLake, it is now time to get some awesome insights and visualizations from this data. So, let's dive deep into the experience of the Business Analyst, Wendy, for just that. Based on all the gathered data, Wendy is expected to create Power BI reports for other data citizens and stakeholders. Let's step into her shoes to experience the power of Copilot for Power BI in conjunction with Direct Lake Mode.
 
 1. Navigate back to the Microsoft Fabric tab on your browser.
+2. Click on Workspaces and select contosoSales…
 
 ![Pipeline.](mediaNew/task-1.1-new4.png)
 
@@ -58,6 +59,8 @@ website_bounce_rate_model
 
 >Wait for the semantic model creation.
 
+Note: Close any pop-up which apears on the screen.
+
 8. To create a new report using this semantic model, click on the **New Report** at the top bar.
  
    ![Simulator.](mediaNew/task-new7.png)
@@ -72,31 +75,14 @@ website_bounce_rate_model
    
       ![Simulator.](mediaNew/task-new9.png)
 
-The first option, “What’s in my dataset?’ provides an overview of the contents of the dataset. It identifies and describes what the datasets and attributes are all about and provides a concise detail of the content. The business analyst does not need to wait for someone to explain the dataset to her. This improves the efficiency and volume of report creation for Contoso.
+The first option, 'What’s in my dataset?' provides an overview of the contents of the dataset. It identifies and describes what the datasets and attributes are all about and provides a concise summary of the content. So, there’s no need to wait for someone to explain the dataset. This improves the efficiency and volume of report creation for Contoso.
 
-12. Click on the **Prompt Guide** button. 
-
-13. Select the option **Suggest content for this page**.
-
-Note: *If the answer is * **Something went wrong. Close and reopen the Copilot pane and try again.** *refresh the page of the VM browser and start from step 11 to open the copilot and perform the following steps.* If the error still exists, please continue with the step 16 to create report.
-
-   ![Simulator.](mediaNew/task-new10.png)
-	
-The copilot can not only describe the dataset, but it can also recomment the kind of reports that could be created using this data.
-
-14. Click on the **Customer** related suggested insight as shown in step 1 of the screenshot **Customer Behavior Insights** 
-
->The Customer insight for you might differ from the screenshot.
-
-15. Click on the **Edit** button as shown in step 2 of the screenshot.  
-
-   ![Simulator.](mediaNew/task-new11.png)
-
-16. Replace the prompt with following from below:
+16. Enter the below prompt.:
  
 ```BASH
 Create a report Bounce Rate analysis, to show the correlation between customer sentiment, particularly among millennials and Gen Z, unsuccessful product searches across different devices, and the website's bounce rate by customer generations.  
 ```
+Note: *Wait for the prompt to populate.*
 
 17. Click on the **Send** button and wait for the results to load. 
 
@@ -104,32 +90,41 @@ Create a report Bounce Rate analysis, to show the correlation between customer s
 	
 >**Note:** If you see the error message saying, 'Something went wrong.', try refreshing the page and restart the task. Being in a shared environment, the service may be busy at times.
 
-Based on this report, we notice that the website bounce rate for Contoso is especially high amongst the Millenial customer segment. How about we ask Copilot if it has any recommendations for improving this bounce rate.
+Based on this report, we notice that the website bounce rate for Contoso is especially high amongst the Millennial customer segment. Let’s ask Copilot if it has any recommendations for improving this bounce rate.
 
-Let's ask Copilot for suggestions based on the results and data in the report. 
+We’ll ask Copilot for suggestions based on the results and data in the report.
 
-18. Enter the following prompt in Copilot, **Based on the data in the report, what can be done to improve the bounce rate of millennials?** and press **Send** button.
+18. Enter the below prompt in Copilot, and press **Send** button.
+
 ```BASH
 Based on the data in the report, what can be done to improve the bounce rate of millennials?
 ```
 ![Simulator.](mediaNew/task-new13.png)
 	
-20. Observe the suggestions provided by Copilot. 
+20. Observe the suggestions provided by Copilot. So, you see copilot creates the desired Power BI report and even goes a step further to give powerful insights. How cool is that? Wendy realizes that in order for the website bounce rate to improve, Contoso needs to transform their mobile website experience for millennials. And this helps them reduce their millennial related customer churn too! Now, what if Contoso’s leadership team needed a quick summary of this entire report? All good, let’s see the SmartNarratives feature in action!
 	
       ![Simulator.](mediaNew/task-new14.png)
 	
 21. Expand the **Visualizations** pane and select the **Narratives** visual. 
 
+![Simulator.](mediaNew/visualizations.png)
+
 22. Click on **Copilot (preview)** within the visual.
 
-      ![Simulator.](mediaNew/task-new15.png)
+      ![Simulator.](mediaNew/open-narrative.png)
 	
 23. Select **Give an executive summary**. 
 
-24. Click on **Update** and observe the generated summary. 
+24. Click on **Update** and observe the generated summary. See how easy it was to get an executive summary? And all this with absolutely no IT resource dependency!
  
       ![Simulator.](mediaNew/task-new16.png)
-	
-The summary could also be generated in another language if specified. The summary is also updated if you filter the report on any particular visual. How cool is that!
+
+25. Expand the narrative from the corner to get a better readable view of the result.
+
+![Simulator.](mediaNew/expand-arrow.png)
+
+26. Click on close button in the above near **Create a narrative with copilot.**
+     
+The summary could also be generated in another language if specified. Additionally, the summary updates if you filter the report on any visual. How cool is that!
 
 ---
