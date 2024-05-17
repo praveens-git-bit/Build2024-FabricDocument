@@ -117,6 +117,9 @@ Note: *If the **copy data assistant** is not visible in the screen, please scrol
 
 ![Pipeline.](mediaNew/yes-cancel.png)
 
+Due to time constraint, creating a Data pipeline is optional. To continue with the Data pipeline creation please go to page 7.
+
+21. Similarly, you can get data into the Lakehouses using pipelines from a variety of other sources like Snowflake, Dataverse, etc. Now, your next task is to ingest data from the acquired company, Litware Inc., into the lakehouse from ADLS Gen 2. Data such as customer churn, sales, campaigns and also website bounce rate. Per the architecture diagram, once all the data is in OneLake, Contoso can derive deep insights from it. So, let’s start by creating a shortcut for this external data.
 
 ---
 
@@ -287,4 +290,6 @@ Note: *If required please reduce the browser page size or scroll up to close the
 
 ![Datawarehouse.](mediaNew/task-1.2.09.png)
 
+
+Congrats for completing this data transformation! Now, as you know, Litware was primarily using Azure Databricks with their data stored in ADLS Gen2 before the acquisition. Post merger, as one unified company – Contoso, they decided to leverage Azure Databricks to build and manage reliable data pipelines via Delta Live Tables (DLT). After that, you will see the amazing power of Unity Catalog that Contoso’s data architects used to quickly learn all about Litware's data without having to go through tons of documents. And all by simply leveraging AI and data intelligence. Let us see how.
 ---
