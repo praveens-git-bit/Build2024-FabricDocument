@@ -89,7 +89,12 @@ thermostat
 
 18. Scroll down and select **Shared Access Key** for Authentication kind, enter **thermostat** as the Shared Access Key Name and then paste the value copied in **step 12** in the **Shared Access Key**.
 
-19. Select Data format as **JSON** and then click on the **Connect** button.
+```BASH
+thermostat
+```
+
+
+20. Select Data format as **JSON** and then click on the **Connect** button.
 
    ![Close the browser.](mediaNew/task-5.2.5-3.png)
 
