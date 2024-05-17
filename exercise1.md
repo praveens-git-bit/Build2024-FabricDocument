@@ -348,6 +348,8 @@ Remove empty rows from GrossRevenue and NetRevenue column from sales_data table
 >**Note:** Due to time constraints, we will not be publishing and running the Dataflow from the Pipeline.
 
 10. Click on the **close** icon at top right of the **Dataflow** window.
+    
+Note: *If required please reduce the browser page size or scroll up to close the dataflow window.*
 
 ![Datawarehouse.](mediaNew/task-1.2.08.png)
 
