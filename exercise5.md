@@ -85,4 +85,146 @@ Fifth, we explored Streaming data using KQL DB for a Real-time Analytics experie
 
 Finally, we leveraged Power BI to derive actionable insights from data in the Lakehouse using Direct Lake mode.
 
+###
+
+## Creating a Data Pipeline
+
+11. Open a new tab on your browser and navigate to Microsoft Fabric
+```BASH
+https://app.fabric.microsoft.com
+```
+**Note**: If you are seeing "Enter your email, we'll check if you need to create a new account" please provide the email ID you provided to signin into Azure.
+
+```BASH
+<inject key= "AzureAdUserEmail" enableCopy="true"/>
+```
+
+12. On the Microsoft Fabric landing page, click on the **Data Factory** experience.
+
+![Pipeline.](mediaNew/task-1.3.01.png)
+
+13. Click on **Workspaces** and select the **contosoSales...** workspace.
+
+![Create Power BI Workspace.](mediaNew/task-1.1-new4.png)
+
+14. Click the **Data Factory** icon in the bottom left corner of the screen to select **Data Factory**.
+
+![Pipeline.](mediaNew/task-1.3.1.png)
+
+15. Click on **Data pipeline**.
+
+![Pipeline.](mediaNew/task-1.3.2.png)
+
+*Wait for the New pipeline pop-up box to appear*
+
+16. In the pop-up, type the pipeline name **Azure SQL DB Pipeline** and click on the **Create** button.
+
+```BASH
+Azure SQL DB Pipeline
+```
+
+![Pipeline.](mediaNew/task-1.3.3.png)
+
+17. In the Data pipeline window, click on **Copy data assistant**.
+
+Note: *If the **copy data assistant** is not visible in the screen, please scroll up.*
+
+![Pipeline.](mediaNew/task-1.3.4.png)
+
+18. In the pop-up, scroll down through the resources, click on **Azure SQL Database** and then click on the **Next** button.
+19. We already have 40+ connectors available for data pipeline from disparate sources in Microsoft Fabric.
+
+>**Note** You may not see the **Azure SQL Database** in the same location as shown in the screenshot.
+
+![Pipeline.](mediaNew/datasources-fabric.png)
+
+19. Select the **Create new connection** radio button.
+
+>**Note:** To fill in the details for required fields, we need to fetch the data from the SQL Database resource deployed in the Azure Portal, due to the time constrain we have provided the details below.
+
+![Pipeline.](mediaNew/task-1.3.6.png)
+
+
+20. In the **Server** field, paste the value from the below.
+```BASH
+ <inject key= "MssqlServer" enableCopy="true"/>
+```
+
+21. Enter **SalesDb** in the **Database** field.
+
+```BASH
+SalesDb
+```
+![Datawarehouse.](mediaNew/task-1.3.15.png)
+
+22. Scroll down and select **Basic** for Authentication kind, enter **labsqladmin** as the Username, **Smoothie@2024** as the Password and click on the **Next** button.
+
+```BASH
+labsqladmin
+```
+```BASH
+Smoothie@2024
+```
+![Datawarehouse.](mediaNew/task-1.3.16.png)
+
+>**Note:** Close any pop-up that you see throughout the lab.
+   
+![Datawarehouse.](mediaNew/task-1.3.16.1.png)
+
+
+23. Click on the **checkbox** for **Select all** and then click on the **Next** button.
+
+Note: *Wait for the source to be appeared.*
+
+![Datawarehouse.](mediaNew/task-1.3.17.png)
+
+27. Scroll down and click on **Lakehouse**, then click on the **Next** button.
+
+![Datawarehouse.](mediaNew/task-1.3.18.png)
+
+28. Click on the **Existing Lakehouse** radio button, click on the **dropdown**, select **lakehouse...** and then click on the **Next** button.
+
+![Datawarehouse.](mediaNew/task-1.3.19.png)
+
+29. Select the **Load to new table** radio button, click on the **checkbox** beside **Source** and then click on **Next**.
+Note: *Wait for the mapping data source to be appeared.*
+
+![Datawarehouse.](mediaNew/task-1.3.20.png)
+
+31. Click on **Save + Run**.
+
+![Datawarehouse.](mediaNew/task-1.3.21.png)
+
+31. Click on the **OK** button in the Pipeline run window.
+
+![Datawarehouse.](mediaNew/task-1.3.21.0.png)
+
+>**Note:** Wait for the pipeline to execute.
+
+32. Click on the bell icon at the top right of the screen to verify the **Running status** of the pipeline.
+
+![Datawarehouse.](mediaNew/task-1.3.22.png)
+
+33. Congratulations! You have successfully transferred the Sales data from Azure SQL Database to Lakehouse for Contoso.
+
+##
+
+Congratulations! You as Data Engineers have helped Contoso gain actionable insights from its disparate data sources, thereby contributing to future growth, customer satisfaction, and a competitive advantage.
+
+In this lab we experienced the creation of a simple integrated, open and governed Data Lakehouse foundation using Modern Analytics with Microsoft Fabric and Azure Databricks.
+
+In this lab we covered the following:
+
+First, we explored the Data Engineering experience and learned how to create a Microsoft Fabric enabled workspace, build a Lakehouse, and ingest data into OneLake along with other data engineering operations with dataflow copilot.
+
+Second, we explored an analytics pipeline using open Delta format and Azure Databricks Delta Live Tables to build a simple Lakehouse and integrate with OneLake with shortcuts.
+
+Third, we explored data governance and generative AI features in Azure Databricks with Unity Catalog. We also explored ML and BI scenarios on the Lakehouse. Here we reviewed MLOps pipeline using the Azure Databricks managed MLflow with Azure ML.
+
+Fourth, we saw the Power BI experience in Fabric with copilot and direct lake mode.
+
+Fifth, we explored Streaming data using KQL DB for a Real-time Analytics experience. Here, we created a KQL Database, ingested real-time and historical data into KQL DB, analyzed patterns to uncover anomalies and outliers with the help of copilot.
+
+Finally, we leveraged Power BI to derive actionable insights from data in the Lakehouse using Direct Lake mode.
+
 
