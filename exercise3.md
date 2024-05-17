@@ -78,7 +78,7 @@ The first option, “What’s in my dataset?’ provides an overview of the cont
 
 13. Select the option **Suggest content for this page**.
 
-Note: *If the answer is * **Something went wrong. Close and reopen the Copilot pane and try again.** *refresh the page of the VM browser and start from step 11 to open the copilot and perform the following steps.*
+Note: *If the answer is * **Something went wrong. Close and reopen the Copilot pane and try again.** *refresh the page of the VM browser and start from step 11 to open the copilot and perform the following steps.* If the error still exists, please continue with the step 16 to create report.
 
    ![Simulator.](mediaNew/task-new10.png)
 	
