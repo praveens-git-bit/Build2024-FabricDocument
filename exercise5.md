@@ -85,7 +85,7 @@ Fifth, we explored Streaming data using KQL DB for a Real-time Analytics experie
 
 Finally, we leveraged Power BI to derive actionable insights from data in the Lakehouse using Direct Lake mode.
 
-###
+##
 
 ## Creating a Data Pipeline
 
