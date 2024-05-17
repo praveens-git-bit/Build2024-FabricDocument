@@ -19,7 +19,7 @@ Let us dive deep into the experience of the Business analyst, Wendy. Based on al
 
    ![Lakehouse.](mediaNew/task-1.3-ext-shortcut2.png)
 
->**Note:** In case you do not see the 'website_bounce_rate' under the Tables section of the lakehouse, follow the below steps. If you are able to see it, please continue with step 4.
+>**Note:** In case you do not see the **'website_bounce_rate'** under the **Tables** section of the lakehouse, follow the below steps from **a to c**. If you are able to see it, please continue with step 4.
 
 a. Click on **data**.
 
