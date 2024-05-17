@@ -1,7 +1,9 @@
 
-### Exercise 2: Unity Catalog (data governance), Metastore experience, RAG and ML
+### Exercise 2: DLT Pipelines-Unity Catalog for Data governance, Metastore experience Retrieval Augmented Generation and Machine Learning
 
-### Task 2.1: Delta Live Table pipeline (Interactive)
+### Task 2.1: Explore Delta Live Table pipeline (Data Transformation)
+
+Delta Live Tables (DLT) allow you to build and manage reliable data pipelines that deliver high-quality data in Lakehouse. DLT helps data engineering teams simplify ETL development and management with declarative pipeline development, automatic data testing, and deep visibility for monitoring and recovery.
 
 1. Navigate to the **Azure Portal**, in the **rg-fabric-adb** resource group, search for **databricks** and click on the databricks resource with the name **adb-fabric...**.
 
@@ -50,17 +52,20 @@ DLT_Pipeline
 
 ### Task 2.2: Explore the data in Azure Databricks environment with Unity Catalog (unified governance solution for data and AI).
 	
-We saw how Contoso was able to utilize DLT pipelines to create a medallion architecture on their data. Now let us take a look at how data governance was managed on this curated data across the organization and how it was made easy with Unity catalog.
+We saw how Contoso was able to utilize DLT pipelines to create a medallion architecture on their data. Now let’s look at how data governance was managed on this curated data across the organization and how it was made easy with Unity Catalog.
 
-With the acquisition of Litware Inc., Contoso had a lot of data integration and interoperability challenges. Contoso wanted to make sure that the transition was smooth and data engineers and scientists from Contoso could easily assimilate the data processed by Databricks. Thankfully, they had the help from Gen AI features right within Azure Databricks to understand and derive insights from this data. Let's see how!
+With the acquisition of Litware Inc., Contoso had a lot of data integration and interoperability challenges. Contoso wanted to make sure that the transition was smooth and their data engineers and data scientists could easily assimilate the data processed by Databricks. Thankfully, they had the help from a wide selection of Gen AI features right within Azure Databricks to understand and derive insights from this data. Let's see how!
 
-**Note**: Following steps will be executed Click-by-click due to time considerations for setting up the unity catalog. Please follow the green beacons for this exercise.
+**Note**: Due to time constraints, the following steps will be completed via an online Click-by-Click. Please follow the green beacons for this exercise.
 
 1. Open the below link of click-by-click in a new tab of VM Browser.
 
 ```BASH
 https://regale.cloud/Microsoft/viewer/3066/task-22-explore-the-data-in-azure-databricks-environment-with-unity-catalog/index.html#/0/0
 ```
+2. Click on the Start Demo button.
+
+![Databricks.](mediaNew/start-demo.png)
 
 2. 	Follow the green beacons and expand **litware_unity_catalog db**.
    
