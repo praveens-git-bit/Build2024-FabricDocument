@@ -109,83 +109,13 @@ Note: *If the **copy data assistant** is not visible in the screen, please scrol
 
 ![Pipeline.](mediaNew/task-1.3.4.png)
 
-18. In the pop-up, scroll down through the resources, click on **Azure SQL Database** and then click on the **Next** button.
-
->**Note** You may not see the **Azure SQL Database** in the same location as shown in the screenshot.
+19. We already have 40+ connectors available for data pipeline from disparate sources in Microsoft Fabric.
 
 ![Pipeline.](mediaNew/datasources-fabric.png)
 
-19. Select the **Create new connection** radio button.
+20. Click on the 'Yes,Cancel' button.
 
->**Note:** To fill in the details for required fields, we need to fetch the data from the SQL Database resource deployed in the Azure Portal, due to the time constrain we have provided the details below.
-
-![Pipeline.](mediaNew/task-1.3.6.png)
-
-
-20. In the **Server** field, paste the value from the below.
-```BASH
- <inject key= "MssqlServer" enableCopy="true"/>
-```
-
-21. Enter **SalesDb** in the **Database** field.
-
-```BASH
-SalesDb
-```
-![Datawarehouse.](mediaNew/task-1.3.15.png)
-
-22. Scroll down and select **Basic** for Authentication kind, enter **labsqladmin** as the Username, **Smoothie@2024** as the Password and click on the **Next** button.
-
-```BASH
-labsqladmin
-```
-```BASH
-Smoothie@2024
-```
-![Datawarehouse.](mediaNew/task-1.3.16.png)
-
->**Note:** Close any pop-up that you see throughout the lab.
-   
-![Datawarehouse.](mediaNew/task-1.3.16.1.png)
-
-
-23. Click on the **checkbox** for **Select all** and then click on the **Next** button.
-
-Note: *Wait for the source to be appeared.*
-
-![Datawarehouse.](mediaNew/task-1.3.17.png)
-
-27. Scroll down and click on **Lakehouse**, then click on the **Next** button.
-
-![Datawarehouse.](mediaNew/task-1.3.18.png)
-
-28. Click on the **Existing Lakehouse** radio button, click on the **dropdown**, select **lakehouse...** and then click on the **Next** button.
-
-![Datawarehouse.](mediaNew/task-1.3.19.png)
-
-29. Select the **Load to new table** radio button, click on the **checkbox** beside **Source** and then click on **Next**.
-Note: *Wait for the mapping data source to be appeared.*
-
-![Datawarehouse.](mediaNew/task-1.3.20.png)
-
-31. Click on **Save + Run**.
-
-![Datawarehouse.](mediaNew/task-1.3.21.png)
-
-31. Click on the **OK** button in the Pipeline run window.
-
-![Datawarehouse.](mediaNew/task-1.3.21.0.png)
-
->**Note:** Wait for the pipeline to execute.
-
-32. Click on the bell icon at the top right of the screen to verify the **Running status** of the pipeline.
-
-![Datawarehouse.](mediaNew/task-1.3.22.png)
-
-33. Your data has been transfered from Azure SQL Database to Lakehouse.
-
-34. Similarly, you can get data into the Lakehouses using pipelines from various other sources like Snowflake, Dataverse, etc.
-
+![Pipeline.](mediaNew/yes-cancel.png)
 
 
 ---
