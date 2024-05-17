@@ -31,13 +31,11 @@ Contoso-KQL-DB
 
    ![Close the browser.](mediaNew/task-5.2.1new1.png)
 
-6. Click on the **+ New** button.
+6. Click on the **+ New** followed by **more options** button below.
 
-   ![Close the browser.](mediaNew/task-5.2.1new1.0.png)
+   ![Close the browser.](mediaNew/task-1.2.1.png)
 
-7. Select **Eventstream**.
-
-Note: *If you don't see the eventstream in the drop down, click on **more options** and search for eventstream.*
+7. Scroll down and search for **Eventstream** under **Real-Time Analytics.**
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.1.png)
 
