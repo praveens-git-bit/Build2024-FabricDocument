@@ -155,7 +155,7 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
 2. Click on the **+ New** button.
 		
-![Close the browser.](mediaNew/task-5.3.2.png)
+![Close the browser.](mediaNew/kqlnew.png)
 
 3. Select **KQL Queryset**.
 
