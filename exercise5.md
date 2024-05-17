@@ -67,26 +67,6 @@ Once we have the predicted data, it is stored back in delta tables in the gold l
 
 ---
 
-Congratulations! You as Data Engineers have helped Contoso gain actionable insights from its disparate data sources, thereby contributing to future growth, customer satisfaction, and a competitive advantage.
-
-In this lab we experienced the creation of a simple integrated, open and governed Data Lakehouse foundation using Modern Analytics with Microsoft Fabric and Azure Databricks.
-
-In this lab we covered the following:
-
-First, we explored the Data Engineering experience and learned how to create a Microsoft Fabric enabled workspace, build a Lakehouse, and ingest data into OneLake along with other data engineering operations with dataflow copilot.
-
-Second, we explored an analytics pipeline using open Delta format and Azure Databricks Delta Live Tables to build a simple Lakehouse and integrate with OneLake with shortcuts.
-
-Third, we explored data governance and generative AI features in Azure Databricks with Unity Catalog. We also explored ML and BI scenarios on the Lakehouse. Here we reviewed MLOps pipeline using the Azure Databricks managed MLflow with Azure ML.
-
-Fourth, we the Power BI experience in Fabric with copilot and direct lake mode.
-
-Fifth, we explored Streaming data using KQL DB for a Real-time Analytics experience. Here, we created a KQL Database, ingested real-time and historical data into KQL DB, analyzed patterns to uncover anomalies and outliers with the help of copilot.
-
-Finally, we leveraged Power BI to derive actionable insights from data in the Lakehouse using Direct Lake mode.
-
-##
-
 ## Creating a Data Pipeline
 
 11. Open a new tab on your browser and navigate to Microsoft Fabric
