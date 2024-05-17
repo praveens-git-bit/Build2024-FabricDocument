@@ -1,15 +1,17 @@
 
 ### Exercise 4: Real-time Analytics experience, explore Streaming data using Copilot for KQL DB
 
-Imagine it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are flocking to their stores in large numbers. We are about to witness the very culmination of Contoso's phonomenal transformation with Microsoft Fabric and ADB. Specifically, we will see how near real-time data is used to make decisions for the next moment in Contoso's stores to ensure optimal temperatures are maintained for their customers while they shop at the big sale! Let's see how! 
+Imagine it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are flocking to their stores in large numbers. We are about to witness the very culmination of Contoso's phenomenal transformation with Microsoft Fabric and ADB. Specifically, we will see how near real-time data is used to make decisions for the next moment in Contoso's stores to ensure optimal temperatures are maintained for their customers while they shop at the big sale! Let's see how!
 
 ### Task 4.1: Ingest real-time/historical data into KQL DB using Eventstream
 
 1. Click on **Workspaces** and select the **contosoSales...** workspace.
 
+![Create Power BI Workspace.](mediaNew/task-1.1-new4.png)
+
 Note: *If you see any pop up click on* **Don't Save.**
 
-![Create Power BI Workspace.](mediaNew/task-1.1-new4.png)
+![Create Power BI Workspace.](mediaNew/donotsave.png)
 
 1. While you are in the Fabric workspace homepage, click on **+ New** and then click on **More options**.
 
@@ -133,18 +135,21 @@ thermostat
 
 27. Enter the Input data format as **Json**.
 
+Note: *Zoom-out on your screen if the Input data format field is not visible.*
+
    ![Close the browser.](mediaNew/task-5.2.14.png)
 
-28. Click on the **Publish** button.
-
-Note: *If the realtimedata is not connected to the KQL Database, connect two dots from draging from one to another. Now click on publish.*
+28. Drag Arrow from 'RealtimeDataTo-KQL' and connect it to 'RealTimeData'.
 
 ![Close the browser.](mediaNew/realtimedata.png)
 
-Real-time data from the event hub has been ingested successfully into the KQL Database.
+Note: *Wait for the data ingestion from EventHub to KQL DB.*
 
+29. Now, click on the **Publish** button.
+    
    ![Close the browser.](mediaNew/task-5.2.15.png)
 
+Real-time data from the event hub has been ingested successfully into the KQL Database. Next, as customers walk in aisles and the temperatures fluctuate, let us see how KQL queries proactively identify anomalies and help maintain an optimal shopping experience!
 
 ---
 
@@ -175,11 +180,11 @@ Query Thermostat Data in Near Real-time using KQL Script
 
 ![Close the browser.](mediaNew/task-5.3.3.png)
 
-5. **Wait** for the query set creation and a new screen will display. In this screen, click on **Contoso-KQL-DB**, verify the workspace name and then click on the **Select** button.
+5. **Wait** for the query set creation and a new screen will display. In this screen, click on **Contoso-KQL-DB**, verify the workspace name and then click on the **Connect** button.
 
 ![Close the browser.](mediaNew/task-5.3.4.png)
 
-6. Select all using **Ctrl + A** and **delete** the pre-written query.
+6. Place your cursor inside the query field, select all using Ctrl + A and delete the pre-written query
 
 ![Close the browser.](mediaNew/task-5.3.5.png)
 
@@ -189,10 +194,8 @@ Query Thermostat Data in Near Real-time using KQL Script
 
 6. **Paste** the query provided below in the query section.
 
-Note: *If you see the answer not sure, please move ahead with the next step, as realtime copilot doesn't behave as expected*
-
 ```BASH
-What is the average temperature every 1 min?
+Create a query to find average temperature every 1 min
 ```
 
 7. Click on the **send** icon.
@@ -205,10 +208,6 @@ What is the average temperature every 1 min?
 
 ![Close the browser.](mediaNew/task-5.3.8.png)
 
-*Similarly you can use the below prompts*
-
-```BASH
-Are there any anomalies for this device?
-```
+So, imagine if one of the aisles had a sudden rise in temperature. Customers start leaving that aisle and the wait time in checkout lines start to increase. But thanks to the KQL Queries, those anomalies would be tracked and immediate notifications would be generated to bring the aisle temperature back to optimal levels! Now, after all these amazing data transformations in OneLake in a healthy ecosystem with Azure Databricks, can we actually predict customer churn for the future? Absolutely! In fact, in the next exercise, let’s see the power of Microsoft Fabric and Azure Databricks to do just that!
 
 ---
