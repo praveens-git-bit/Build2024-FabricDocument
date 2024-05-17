@@ -18,8 +18,7 @@ Note: *If you see any pop up click on* **Don't Save.**
 2. In the new window, scroll down to the **Real-Time Analytics** section and click on **KQL Database**.
 
 Note: *Wait for the new KQL Database to popup.*
-
-![Close the browser.](mediaNew/task-5.1.3.png)
+	![Close the browser.](mediaNew/task-5.1.3.png)
 
 4. Enter the name **Contoso-KQL-DB**, click on the **Create** button and wait for the database to be created.
 
