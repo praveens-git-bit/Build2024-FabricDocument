@@ -291,6 +291,8 @@ Now this is something exciting! This section shows how easy it is to create shor
 
 25. In the pop-up verify the **New table name** and then click on the **Load** button.
 
+Note: *wait for sometime to data to get load into the tables*
+
 ![alt text](mediaNew/task-new3.png)
 
 ---
