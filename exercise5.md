@@ -132,11 +132,12 @@ Note: *If the **copy data assistant** is not visible in the screen, please scrol
 ![Pipeline.](mediaNew/task-1.3.4.png)
 
 18. In the pop-up, scroll down through the resources, click on **Azure SQL Database** and then click on the **Next** button.
-19. We already have 40+ connectors available for data pipeline from disparate sources in Microsoft Fabric.
 
 >**Note** You may not see the **Azure SQL Database** in the same location as shown in the screenshot.
 
 ![Pipeline.](mediaNew/datasources-fabric.png)
+
+FACT: *We already have 40+ connectors available for data pipeline from disparate sources in Microsoft Fabric.*
 
 19. Select the **Create new connection** radio button.
 
