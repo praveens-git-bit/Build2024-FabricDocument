@@ -17,7 +17,7 @@
 
 In this exercise, you will act as the Data Engineer and transfer Contoso's data from Azure SQL Database into the Lakehouse. 
 
-1. Open **Power BI** in a new tab by going to 
+1. Open **Power BI** in a new tab using the below URL.
 
 ```BASH
 https://app.powerbi.com
@@ -113,7 +113,7 @@ Note: *If the **copy data assistant** is not visible in the screen, please scrol
 
 >**Note** You may not see the **Azure SQL Database** in the same location as shown in the screenshot.
 
-![Pipeline.](mediaNew/task-1.3.5.png)
+![Pipeline.](mediaNew/datasources-fabric.png)
 
 19. Select the **Create new connection** radio button.
 
