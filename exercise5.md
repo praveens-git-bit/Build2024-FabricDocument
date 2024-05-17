@@ -1,7 +1,7 @@
 
 ### Exercise 5: Data Science experience, explore Machine Learning and Business Intelligence scenarios in ADB (read only)
  
-So, we saw how Contoso combined historical gold layer data from ADLS Gen2 with all OneLake data via shortcuts. Additionally, we saw how all that data could be easily accessed in Azure Databricks (thanks to the standard delta parquet format). Delta live tables were created in Azure Databricks for further curation of data. Contoso can now leverage the power of machine learning models in ADB on that data to gain meaningful insights and predict customer churn. Let's explore the Data Science Experience in Azure Databricks as Data Scientists!
+We saw how Contoso combined historical gold layer data from ADLS Gen2 with all the OneLake data via shortcuts. Additionally, we saw how all that data could be easily accessed in Azure Databricks (thanks to the standard delta parquet format). Delta live tables were created in Azure Databricks for further curation of data. Contoso can now leverage the power of machine learning models in ADB on that data to gain meaningful insights and predict customer churn. Let's explore the Data Science Experience in Azure Databricks as Data Scientists!
 
 ### Task 5.1: Build ML models, experiments, and log ML model in the built-in model registry using MLflow and batch scoring
 
@@ -23,7 +23,7 @@ Ultimately, we would like to understand our customers' sentiment so we can creat
 
 3. Navigate to **cmd 9**.
 
-With the data prepared, we can begin exploring the patterns it contains. 
+With the data prepared, we can begin exploring the patterns it contains.
 
 Let's start by examining the customer churn outcome based on factors like a customer's tenure in months and their total amount spent at Contoso. As a result, we can see a high churn rate is seen if the customer's tenure is low, and they have a lower spend amount.
 
