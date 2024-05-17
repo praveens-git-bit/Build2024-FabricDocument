@@ -1,3 +1,5 @@
+## **OPTIONAL EXERCISE**
+
 
 ### Exercise 4: Real-time Analytics experience, explore Streaming data using Copilot for KQL DB
 
