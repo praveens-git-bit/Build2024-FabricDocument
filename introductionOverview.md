@@ -42,7 +42,7 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
  
  - Task 2.2: Explore the data in the Azure Databricks environment with Unity Catalog (unified governance solution for data and AI)
 	
- - (Optional) Task 2.3 Deploy LLM Chatbots With the Data Intelligence Platform 
+ - (Optional) Task 2.3 Deploy LLM Chatbots With the Databricks data Intelligence Platform 
 
  
 ### Exercise 3: Power BI Experience
