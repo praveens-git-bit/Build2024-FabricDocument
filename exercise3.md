@@ -5,7 +5,7 @@
 
 Great work so far. Go Contoso! With all the disparate sources data as well as Litware's data in OneLake, it is now time to get some awesome insights and visualizations from this data. So, let's dive deep into the experience of the Business Analyst, Wendy, for just that. Based on all the gathered data, Wendy is expected to create Power BI reports for other data citizens and stakeholders. Let's step into her shoes to experience the power of Copilot for Power BI in conjunction with Direct Lake Mode.
 
-1. Navigate to the Fabric Workspace. 
+1. Navigate back to the Microsoft Fabric tab on your browser.
 
 ![Pipeline.](mediaNew/task-1.1-new4.png)
 
