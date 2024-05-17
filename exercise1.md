@@ -105,6 +105,8 @@ Azure SQL DB Pipeline
 
 17. In the Data pipeline window, click on **Copy data assistant**.
 
+Note: *If the **copy data assistant** is not visible in the screen, please scroll up.*
+
 ![Pipeline.](mediaNew/task-1.3.4.png)
 
 18. In the pop-up, scroll down through the resources, click on **Azure SQL Database** and then click on the **Next** button.
