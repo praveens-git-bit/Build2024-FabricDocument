@@ -148,10 +148,6 @@ Note: *If you are looking at the screen as exactly shown in the below, please dr
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut2.png)
 
->**Note:** When you enter into the lakehouse, if you are seeing the folder called undefined under tables refresh by clicking on the **three dot (Elipse)** 
-
-![Lakehouse.](mediaNew/task-1note.png)
-
 4. Click on the **three dots (Elipse)** on the right side of Files.
 
 5. Click on **New shortcut**.
@@ -219,17 +215,19 @@ Note: *If you are looking at the screen as exactly shown in the below, please dr
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut10.png)
 
-22. Click on the newly created shortcut named data.
+22. And there you go! Your shortcut is now ready! Simply click on the newly created shortcut named data.
+
+23. Click on the newly created shortcut named data.
 
 ![Lakehouse.](mediaNew/task-wb7.png)
 
-23. Scroll down in the **middle of the screen**, click on the **three dots (Elipse)** on the right side of **website_bounce_rate.csv**.
+24. Scroll down in the **middle of the screen**, click on the **three dots (Elipse)** on the right side of **website_bounce_rate.csv**.
 
-24. Click on **Load to Tables** and select **New table**.
+25. Click on **Load to Tables** and select **New table**.
 
 ![Lakehouse.](mediaNew/task-wb8.png)
 
-25. In the pop-up verify the **New table name** and then click on the **Load** button.
+26. In the pop-up verify the **New table name** and then click on the **Load** button.  And just like that you now have a table in OneLake with all the website bounce rate information for Contoso to leverage. How cool is that? Next, we proceed with data transformation using Dataflow Gen2 to transform the Sales data ingested from Litware.
 
 Note: *wait for sometime to data to get load into the tables*
 
