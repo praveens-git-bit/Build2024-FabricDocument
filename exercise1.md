@@ -134,6 +134,10 @@ Now this is something exciting! This section shows how easy it is to create shor
 
 ![Lakehouse.](mediaNew/task-1.1.3s.png)
 
+Note: *If you are looking at the screen as exactly shown in the below, please drag it up. It is appearing because of the new update of **Task Flow**.*
+
+![Lakehouse.](mediaNew/dataflow.png)
+
 2. In the contosoSales... workspace, click on **Filter** and select **Lakehouse**.
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut1.png)	
