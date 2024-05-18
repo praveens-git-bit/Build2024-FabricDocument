@@ -49,7 +49,10 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
  
 - Task 3.1: Create a Semantic model and generate insights using Copilot for Power BI
 
+###
+
 **OPTIONAL EXERCISES**
+
 
 ### Exercise 4: Real-time Analytics experience - Explore Streaming data using Copilot for KQL DB (optional)
  
