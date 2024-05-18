@@ -134,7 +134,7 @@ Click on the search box to search for Find information about customers who have 
 	
 ---
 
-### Task 2.3 (OPTIONAL)Deploy LLM Chatbots With the Databricks data Intelligence Platform
+### Task 2.3 (OPTIONAL) Deploy LLM Chatbots With the Databricks data Intelligence Platform
 
 Contoso also wanted to improve how efficiently they analyzed hundreds of documents and news articles about their big merger and their company policies. Why? To track and improve their Market Sentiment KPI. Azure Databricks provides just the solution with its Delta Lake architecture supporting unstructured data, like PDF documents, with Lang chain models leveraging the Databricks Foundation Model for creating custom chatbots. Let's see how this was done.
 
