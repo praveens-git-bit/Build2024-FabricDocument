@@ -40,6 +40,7 @@ https://app.powerbi.com
 ```
    ![Create Power BI Workspace.](mediaNew/task-1.1.3.png)
 
+Note: *If you see any popup of  **Introducing task flows(Preview)** please click on **Got it**.*
 
 5. Click on **Workspaces** to verify if the workspace with the given name was created, if not perform the steps above again.
 
