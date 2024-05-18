@@ -110,7 +110,9 @@ Note: *If the **copy data assistant** is not visible in the screen, please scrol
 
 ![Pipeline.](mediaNew/task-1.3.4.png)
 
-19. We already have 40+ connectors available for data pipeline from disparate sources in Microsoft Fabric.
+19. We already have 40+ connectors available for data pipeline from disparate sources in Microsoft Fabric. By viewing the connectors please close the Copy data pop up.
+
+Note: *If the close button is not visible, please slide right from the below slider and close the pop up.*
 
 ![Pipeline.](mediaNew/datasources-fabric.png)
 
