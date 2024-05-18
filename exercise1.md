@@ -94,7 +94,7 @@ https://app.fabric.microsoft.com
 
 ![Pipeline.](mediaNew/task-1.3.2.png)
 
-*Wait for the New pipeline pop-up box to appear*
+Note: *Wait for the New pipeline pop-up box to appear and change the pre provided name by following below steps.*
 
 16. In the pop-up, type the pipeline name **Azure SQL DB Pipeline** and click on the **Create** button.
 
