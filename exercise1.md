@@ -235,7 +235,7 @@ Note: *wait for sometime to data to get load into the tables*
 
 ---
 
-### Task 1.3: Transform data using Dataflow Gen2 ‘No Code-Low Code experience’ Copilot
+### Task 1.3: Transform data using Dataflow Gen2 using a ‘No Code-Low Code experience’ Copilot
 
 In this exercise, you will experience how easy it is to use Copilot to transform sales data. 
 
