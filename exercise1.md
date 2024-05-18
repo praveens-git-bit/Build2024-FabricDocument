@@ -120,7 +120,7 @@ Note: *If the close button is not visible, please slide right from the below sli
 
 ![Pipeline.](mediaNew/yes-cancel.png)
 
-Due to time constraint, creating a Data pipeline is optional. To continue with the Data pipeline creation please go to page 7.
+Due to time constraint, creating a **Data pipeline** is optional. To continue with the Data pipeline creation please go to page 7.
 
 21. Similarly, you can get data into the Lakehouses using pipelines from a variety of other sources like Snowflake, Dataverse, etc. Now, your next task is to ingest data from the acquired company, Litware Inc., into the lakehouse from ADLS Gen 2. Data such as customer churn, sales, campaigns and also website bounce rate. Per the architecture diagram, once all the data is in OneLake, Contoso can derive deep insights from it. So, let’s start by creating a shortcut for this external data.
 
