@@ -71,7 +71,7 @@ https://regale.cloud/Microsoft/viewer/3066/task-22-explore-the-data-in-azure-dat
    
 3.	Click on **Catalog**.
 5.	Expand **litware_unity_catalog db**.
-6.	Expand the **rag** schema.
+6.	Expand the **rag** schema and followed by **tables**.
 7.	Click on **silver_customerChurn** table.
 
 ![Databricks.](mediaNew/task-2.1new.png)
@@ -102,23 +102,25 @@ By simply using a natural language query and leveraging the AI generated table a
 
 ![Databricks.](mediaNew/task-2.4.1new.png)
 
-11.	**Run** the query.
+11.	In the query, **delete** the last 2/3 letters to introduce an error.
 
-12.	Check the output.
+12.	Click on **Run** to see the error.
+
+13.	Click on **Diagnose error** to fix the query issue. 
+
+![Databricks.](mediaNew/task-2.6new.png)
+
+14. Click on the **Arrow** to replace the current code.
+
+![Databricks.](mediaNew/task-2.4.1new.png)
+
+15.	**Run** the query.
+
+16.	Check the output.
 
 >**Note:** Make sure Warehouse is in ready mode
 
 ![Databricks.](mediaNew/task-2.5new.png)
-
-Users also have the capability to fix errors in queries with the AI assistant. Let's intentionally introduce an error by misspelling a table name and see the AI's response.
-	
-13.	In the query, **delete** the last 2/3 letters to introduce an error.
-
-14.	Click on **Run** to see the error.
-
-15.	Click on **Diagnose error** to fix the query issue. 
-
-![Databricks.](mediaNew/task-2.6new.png)
 	
 Data discovery is also made simple within Azure Databricks. Users can simply search for table names or the information they are looking for in the global search and all the relevant items are returned, again leveraging the table and field descriptions created by AI and data intelligence mentioned earlier.
 
