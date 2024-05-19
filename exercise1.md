@@ -3,7 +3,7 @@
 
 *Before we start executing the steps, we will trigger the simulator app to start streaming data to eventhub.*
 
-1. Copy the below URL and paste it in the browser to get the streaming started.
+1. Copy the URL below and paste it in the browser to get the streaming started.
 ```BASH
    <inject key= "WebAppBrowse" enableCopy="true"/>
 ```
@@ -19,7 +19,7 @@ In this exercise, you will act as the Data Engineer and transfer Contoso's data 
 
 Note: *It is expected that the first page has been referred to for setting up your **Azure login**.*
 
-1. Open **Power BI** in a new tab using the below URL.
+1. Open **Power BI** in a new tab using the URL below.
 
 ```BASH
 https://app.powerbi.com
@@ -42,11 +42,11 @@ https://app.powerbi.com
 ```
    ![Create Power BI Workspace.](mediaNew/task-1.1.3.png)
 
-Note: *If you see any popup of  **Introducing task flows(Preview)** please click on **Got it**.*
+   Note: *If you see any popup of  **Introducing task flows(Preview)** please click on **Got it**.*
 
 5. Click on **Workspaces** to verify if the workspace with the given name was created, if not perform the steps above again.
 
-**NOTE:** If the workspace you created is not visible, perform **steps 3 to 5** again.
+   NOTE:If the workspace you created is not visible, perform **steps 3 to 5** again.
 
    ![Create Power BI Workspace.](mediaNew/task-1.1-new4.png)
 
