@@ -17,6 +17,8 @@
 
 In this exercise, you will act as the Data Engineer and transfer Contoso's data from Azure SQL Database into the Lakehouse. 
 
+*It is expected that the first page has been referred to for setting up your **Azure login**.*
+
 1. Open **Power BI** in a new tab using the below URL.
 
 ```BASH
