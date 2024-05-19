@@ -24,7 +24,6 @@ Note: *It is expected that the first page has been referred to for setting up yo
 ```BASH
 https://app.powerbi.com
 ```
-
 *Close* the top bar for a better view.
 
 ![Create Power BI Workspace.](mediaNew/task-1.1-new1.png)
@@ -210,7 +209,7 @@ Note: *Click on the collapse icon, as shown in the screenshot below, for better 
 ```
 17. In the **Authentiation kind** dropdown, select **Account Key**.
 
-18. Paste the **account key** copied in **step number 10**.
+18. Paste the **account key** copied in **step number 15**.
 
 19. Click on **Next**.
 
