@@ -118,21 +118,21 @@ Note: *If the **copy data assistant** is not visible in the screen, please scrol
 
 12. Click on **view more** in the **new source** section.
 
-![Pipeline.](mediaNew/newsourceviewmore.png)
+   ![Pipeline.](mediaNew/newsourceviewmore.png)
 
-12. We already have 40+ connectors available for data pipeline from disparate sources in Microsoft Fabric. By viewing the connectors please close the Copy data pop up.
+13. We already have 40+ connectors available for data pipeline from disparate sources in Microsoft Fabric. By viewing the connectors please close the Copy data pop up.
 
 Note: *If the close button is not visible, please slide right from the below slider and close the pop up.*
 
-![Pipeline.](mediaNew/datasources-fabric.png)
+   ![Pipeline.](mediaNew/datasources-fabric.png)
 
-13. Click on the 'Yes,Cancel' button.
+14. Click on the 'Yes,Cancel' button.
 
-![Pipeline.](mediaNew/yes-cancel.png)
+   ![Pipeline.](mediaNew/yes-cancel.png)
 
 Due to time constraint, creating a **Data pipeline** is optional. To continue with the Data pipeline creation please go to page 7.
 
-14. Similarly, you can get data into the Lakehouses using pipelines from a variety of other sources like Snowflake, Dataverse, etc. Now, your next task is to ingest data from the acquired company, Litware Inc., into the lakehouse from ADLS Gen 2. Data such as customer churn, sales, campaigns and also website bounce rate. Per the architecture diagram, once all the data is in OneLake, Contoso can derive deep insights from it. So, let’s start by creating a shortcut for this external data.
+15. Similarly, you can get data into the Lakehouses using pipelines from a variety of other sources like Snowflake, Dataverse, etc. Now, your next task is to ingest data from the acquired company, Litware Inc., into the lakehouse from ADLS Gen 2. Data such as customer churn, sales, campaigns and also website bounce rate. Per the architecture diagram, once all the data is in OneLake, Contoso can derive deep insights from it. So, let’s start by creating a shortcut for this external data.
 
 ---
 
