@@ -46,11 +46,13 @@ https://app.powerbi.com
 
 5. Click on **Workspaces** to verify if the workspace with the given name was created, if not perform the steps above again.
 
-   NOTE:If the workspace you created is not visible, perform **steps 3 to 5** again.
+   NOTE: *If the workspace you created is not visible, perform **steps 3 to 5** again.*
 
    ![Create Power BI Workspace.](mediaNew/task-1.1-new4.png)
 
-6. In Power BI service, click **+ New** and then select **More options**.
+#Create/Build a Lakehouse
+
+7. In Power BI service, click **+ New** and then select **More options**.
 
 ![Close the browser.](mediaNew/task-1.2.1.png)
 
