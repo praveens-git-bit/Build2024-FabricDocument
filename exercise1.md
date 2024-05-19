@@ -268,11 +268,9 @@ In this exercise, you will experience how easy it is to use Copilot to transform
 
 ![Datawarehouse.](mediaNew/task-1.2.05.png)
 
-**Note**: User might see a popup page of datasource to select, and might not able to see any option, please click on next to continue with the lakehouse connection.
-
 6. Click on the **Next** button.
 
-![Datawarehouse.](mediaNew/task-1.2.05.1.png)
+![Datawarehouse.](mediaNew/dataflowconnection.png)
 
 7. Expand **Lakehouse** > **contosoSales...** > **Lakehouse...** > **Files** > **data** and check the **sales_data.csv** checkbox, then **click** on the **Create** button.
 
