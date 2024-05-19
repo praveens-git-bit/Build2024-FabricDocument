@@ -52,6 +52,8 @@ https://app.powerbi.com
 
 ## Create/Build a Lakehouse
 
+Now, let's see how each department can easily create a Lakehouse in the Contoso workspace without any provisioning. They simply provide a name, given the proper access rights of course!
+
 1. In Power BI service, click **+ New** and then select **More options**.
 
 ![Close the browser.](mediaNew/task-1.2.1.png)
@@ -98,7 +100,7 @@ https://app.fabric.microsoft.com
 
 ![Pipeline.](mediaNew/task-1.3.2.png)
 
-Note: *Wait for the New pipeline pop-up box to appear and change the pre provided name by following below steps.*
+Note: "Wait for the **New pipeline** pop-up box to appear and change the pre-provided name using the steps below.
 
 10. In the pop-up, type the pipeline name **Azure SQL DB Pipeline** and click on the **Create** button.
 
@@ -132,13 +134,13 @@ Due to time constraint, creating a **Data pipeline** is optional. To continue wi
 
 ### Task 1.2: Use ‘New Shortcut’ option from external data sources
 
-Now this is something exciting! This section shows how easy it is to create shortcuts without actually moving data. That is the power of OneLake! In this exercise, you will ingest the curated marketing and product reviews data from ADLS Gen2.
+Now this is something exciting and most powerful! This section shows how easy it is to create shortcuts without actually moving data. That is the power of OneLake! In this exercise, you will ingest the curated bounce rate data for Litware from ADLS Gen2 as an illustration. They also have marketing, sales, customer churn and product reviews data for Litware which can also be ingested.
 
 1. Click on the workspace icon on the left side bar of the page.
 
 ![Lakehouse.](mediaNew/task-1.1.3s.png)
 
-Note: *If you are looking at the screen as exactly shown in the below, please drag it up. It is appearing because of the new update of **Task Flow**.*
+Note: *Click on the collapse icon, as shown in the screenshot below, for better visibility.*
 
 ![Lakehouse.](mediaNew/dataflow.png)
 
