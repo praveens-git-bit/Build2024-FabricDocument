@@ -52,27 +52,27 @@ https://app.powerbi.com
 
 ## Create/Build a Lakehouse
 
-7. In Power BI service, click **+ New** and then select **More options**.
+1. In Power BI service, click **+ New** and then select **More options**.
 
 ![Close the browser.](mediaNew/task-1.2.1.png)
 
-7. In the new window, under the Data Engineering section, click on **Lakehouse**.
+2. In the new window, under the Data Engineering section, click on **Lakehouse**.
 
    ![Close the browser.](mediaNew/task-1.2.2.png)
 
 *Wait for the New lakehouse pop-up box to appear*
 
-9. Enter the name **lakehouse**.
+3. Enter the name **lakehouse**.
 
 ```BASH
    <inject key= "lakehouseName" enableCopy="true"/>
 ```
 
-10. Click the **Create** button.
+4. Click the **Create** button.
 
 ![Close the browser.](mediaNew/task-1.2.3.png)
 
-11. Open a new tab on your browser and navigate to Microsoft Fabric at 
+5. Open a new tab on your browser and navigate to Microsoft Fabric at 
 ```BASH
 https://app.fabric.microsoft.com
 ```
@@ -82,25 +82,25 @@ https://app.fabric.microsoft.com
 <inject key= "AzureAdUserEmail" enableCopy="true"/>
 ```
 
-12. On the Microsoft Fabric landing page, click on the **Data Factory** experience.
+6. On the Microsoft Fabric landing page, click on the **Data Factory** experience.
 
 ![Pipeline.](mediaNew/task-1.3.01.png)
 
-13. Click on **Workspaces** and select the **contosoSales...** workspace.
+7. Click on **Workspaces** and select the **contosoSales...** workspace.
 
 ![Create Power BI Workspace.](mediaNew/task-1.1-new4.png)
 
-14. Click the **Data Factory** icon in the bottom left corner of the screen to select **Data Factory**.
+8. Click the **Data Factory** icon in the bottom left corner of the screen to select **Data Factory**.
 
 ![Pipeline.](mediaNew/task-1.3.1.png)
 
-15. Click on **Data pipeline**.
+9. Click on **Data pipeline**.
 
 ![Pipeline.](mediaNew/task-1.3.2.png)
 
 Note: *Wait for the New pipeline pop-up box to appear and change the pre provided name by following below steps.*
 
-16. In the pop-up, type the pipeline name **Azure SQL DB Pipeline** and click on the **Create** button.
+10. In the pop-up, type the pipeline name **Azure SQL DB Pipeline** and click on the **Create** button.
 
 ```BASH
 Azure SQL DB Pipeline
@@ -108,25 +108,25 @@ Azure SQL DB Pipeline
 
 ![Pipeline.](mediaNew/task-1.3.3.png)
 
-17. In the Data pipeline window, click on **Copy data assistant**.
+11. In the Data pipeline window, click on **Copy data assistant**.
 
 Note: *If the **copy data assistant** is not visible in the screen, please scroll up.*
 
 ![Pipeline.](mediaNew/task-1.3.4.png)
 
-19. We already have 40+ connectors available for data pipeline from disparate sources in Microsoft Fabric. By viewing the connectors please close the Copy data pop up.
+12. We already have 40+ connectors available for data pipeline from disparate sources in Microsoft Fabric. By viewing the connectors please close the Copy data pop up.
 
 Note: *If the close button is not visible, please slide right from the below slider and close the pop up.*
 
 ![Pipeline.](mediaNew/datasources-fabric.png)
 
-20. Click on the 'Yes,Cancel' button.
+13. Click on the 'Yes,Cancel' button.
 
 ![Pipeline.](mediaNew/yes-cancel.png)
 
 Due to time constraint, creating a **Data pipeline** is optional. To continue with the Data pipeline creation please go to page 7.
 
-21. Similarly, you can get data into the Lakehouses using pipelines from a variety of other sources like Snowflake, Dataverse, etc. Now, your next task is to ingest data from the acquired company, Litware Inc., into the lakehouse from ADLS Gen 2. Data such as customer churn, sales, campaigns and also website bounce rate. Per the architecture diagram, once all the data is in OneLake, Contoso can derive deep insights from it. So, let’s start by creating a shortcut for this external data.
+14. Similarly, you can get data into the Lakehouses using pipelines from a variety of other sources like Snowflake, Dataverse, etc. Now, your next task is to ingest data from the acquired company, Litware Inc., into the lakehouse from ADLS Gen 2. Data such as customer churn, sales, campaigns and also website bounce rate. Per the architecture diagram, once all the data is in OneLake, Contoso can derive deep insights from it. So, let’s start by creating a shortcut for this external data.
 
 ---
 
