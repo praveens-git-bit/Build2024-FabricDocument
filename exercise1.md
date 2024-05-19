@@ -50,7 +50,7 @@ https://app.powerbi.com
 
    ![Create Power BI Workspace.](mediaNew/task-1.1-new4.png)
 
-# Create/Build a Lakehouse
+## Create/Build a Lakehouse
 
 7. In Power BI service, click **+ New** and then select **More options**.
 
