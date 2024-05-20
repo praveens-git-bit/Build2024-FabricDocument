@@ -101,11 +101,11 @@ thermostat
 ```BASH
 thermostat
 ```
+![Close the browser.](mediaNew/eventhouse14.png)
 
+21. Select Data format as **JSON** and then click on the **Next** button.
 
-21. Select Data format as **JSON** and then click on the **Connect** button.
-
-   ![Close the browser.](mediaNew/task-5.2.5-3.png)
+   ![Close the browser.](mediaNew/eventhouse14.png)
 
 >**Note:** Wait for the connection to be established.
 
