@@ -44,19 +44,12 @@ Note: *wait for new semantic model page to popup.*
 
    ![Simulator.](mediaNew/task-new4.png)
 
-6. Enter **website_bounce_rate_model** in the Name field.
+6. Enter **website_bounce_rate_model** in the Name field and select **contosoSales...** workspace and select **website_bounce_rate** table and click on the **Confirm** button.
 
 ```BASH
 website_bounce_rate_model
 ```
-
-7. Select workspace as **contosoSales...** and scroll down.
-
-   ![Simulator.](mediaNew/task-new5.png)
-
-8. Select **website_bounce_rate** table and click on the **Confirm** button. 
-
-   ![Simulator.](mediaNew/task-new6.png)
+![Simulator.](mediaNew/semanticmodel.png)
 
 >Wait for the semantic model creation.
 
