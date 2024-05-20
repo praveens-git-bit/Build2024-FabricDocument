@@ -158,6 +158,10 @@ Note: *Wait for the data ingestion from EventHub to KQL DB.*
 
 Note: *Wait for the data ingestion from EventHub to KQL DB.*
 
+32. Once you see that the streaming has started, click on Refresh and wait for the data to preview.
+
+    ![Close the browser.](mediaNew/eventhouse17.png)
+
 Real-time data from the event hub has been ingested successfully into the KQL Database. Next, as customers walk in aisles and the temperatures fluctuate, let us see how KQL queries proactively identify anomalies and help maintain an optimal shopping experience!
 
 ---
