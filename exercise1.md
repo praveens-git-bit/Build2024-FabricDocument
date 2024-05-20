@@ -261,6 +261,8 @@ In this exercise, you will experience how easy it is to use Copilot to transform
 
 3. Click on the **Get data** button.
 
+Note: If you see **New Query** in place of **Get Data**, click on drop down and select **Get Data.**
+
 ![Datawarehouse.](mediaNew/task-1.2.03.png)
 
 4. In the pop-up window, click on the **View more** button.
@@ -284,6 +286,10 @@ In this exercise, you will experience how easy it is to use Copilot to transform
 ![Datawarehouse.](mediaNew/task-wb9.S.png)
 
 8. Click on the **Copilot** button, paste the **prompt** provided below in the text box and click on the **send** icon.
+
+   Note: If user is not able to see copilot, click on the right arrow as shown below.
+
+![Datawarehouse.](mediaNew/rightarrow.png)
 
 ```BASH
  In the table sales_data csv, apply first row as headers.
