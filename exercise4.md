@@ -30,19 +30,15 @@ Note: *Wait for the new Eventhouse to popup.*
 ```BASH
 Contoso-Eventhouse
 ```
-![Close the browser.](mediaNew/task-5.1.4.png)
+![Close the browser.](mediaNew/eventhouse2.png)
 
-5. Click on the **contosoSales** workspace from left navigation pane.
+6. Click on **Real-Time Intelligence** at the bottom left corner of the screen and select **Real-Time Intelligence**.
 
-   ![Close the browser.](mediaNew/task-5.2.1new1.png)
+   ![Close the browser.](mediaNew/Realtime-Intelligence.png)
 
-6. Click on the **+ New** followed by **more options** button below.
+7. Scroll down and search for **Eventstream** under **Real-Time Intelligence.**
 
-   ![Close the browser.](mediaNew/task-1.2.1.png)
-
-7. Scroll down and search for **Eventstream** under **Real-Time Analytics.**
-
-   ![Close the browser.](mediaNew/task-5.2.1new1.0.1.png)
+   ![Close the browser.](mediaNew/eventhouse4.png)
 
 9. Enter the name as **RealtimeDataTo-KQL-DB** and click on **Create** button.
 
@@ -50,7 +46,7 @@ Contoso-Eventhouse
 RealtimeDataTo-KQL-DB
 ```
 
-   ![Close the browser.](mediaNew/task-5.2.1new1.0.2.png)
+   ![Close the browser.](mediaNew/Eventst-name1.png)
 
 10. Click on the **Add External Source** button.
 
