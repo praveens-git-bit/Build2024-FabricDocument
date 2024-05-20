@@ -131,20 +131,20 @@ RealTimeData
 
 27. Finally click on the **Create new** button.
 
-   ![Close the browser.](mediaNew/task-5.2.12.png)
+   ![Close the browser.](mediaNew/task-5.2.13.png)
 
 28. Enter the table name as **thermostat** and then click on the **Done** button.
 
 ```BASH
 thermostat
 ```
-   ![Close the browser.](mediaNew/task-5.2.13.png)
+   ![Close the browser.](mediaNew/eventhouse6.png)
 
 29. Enter the Input data format as **Json**.
 
 Note: *Zoom-out on your screen if the Input data format field is not visible.*
 
-   ![Close the browser.](mediaNew/task-5.2.14.png)
+   ![Close the browser.](mediaNew/eventhouse7.png)
 
 30. Drag Arrow from 'RealtimeDataTo-KQL' and connect it to 'RealTimeData'.
 
