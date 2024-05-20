@@ -60,13 +60,13 @@ website_bounce_rate_model
 
 >Wait for the semantic model creation.
 
-Note: Close any pop-up which apears on the screen.
-
- ![Simulator.](mediaNew/coplitclose.png)
-
 8. To create a new report using this semantic model, click on the **New Report** at the top bar.
  
    ![Simulator.](mediaNew/task-new7.png)
+
+Note: Close any pop-up which apears on the screen.
+
+ ![Simulator.](mediaNew/coplitclose.png)
 
 9. Click on the **Copilot** icon, collapse all the other three panes and then click on the **Get started** button.
 
