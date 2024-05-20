@@ -1,16 +1,17 @@
 
 ### Exercise 3: Power BI Experience
  
-### Task 3.1: Create Semantic model and generate insights using Copilot for Power BI
+### Task 3.1: Create Semantic model and generate insights using Copilot for Power BI  in Microsoft Fabric
 
-Great work so far. Go Contoso! With all the disparate sources data as well as Litware's data in OneLake, it is now time to get some awesome insights and visualizations from this data. So, let's dive deep into the experience of the Business Analyst, Wendy, for just that. Based on all the gathered data, Wendy is expected to create Power BI reports for other data citizens and stakeholders. Let's step into her shoes to experience the power of Copilot for Power BI in conjunction with Direct Lake Mode.
+With the wide spectrum data sources as well as Litware's data in OneLake, it is now time to get some awesome insights and visualizations from this data. So, let's dive deep into the experience of the Business Analyst, Wendy, for just that. Based on all the gathered data, Wendy is expected to create Power BI reports for other data citizens and stakeholders. Let's step into her shoes to experience the power of Copilot for Power BI in conjunction with Direct Lake Mode.
 
 1. Navigate back to the Microsoft Fabric tab on your browser.
+
 2. Click on Workspaces and select contosoSales…
 
 ![Pipeline.](mediaNew/task-1.1-new4.png)
 
-2. In the **contosoSales...** workspace, click on **Filter** and select **Lakehouse**.
+3. In the **contosoSales...** workspace, click on **Filter** and select **Lakehouse**.
 
    ![Lakehouse.](mediaNew/task-1.3-ext-shortcut1.png)	
 
