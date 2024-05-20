@@ -63,9 +63,3 @@
 Note: After getting signed in to the Azure Portal, if you see a popup "Welcome to Microsoft Azure" click on "Cancel" to skip the tour and close the window.
 
 
-#
-
-`Note: If you are facing any issue while opening something in the JumpVM/Bastion like downloading html file, press *ctrl + Shift + R* or refresh the main browser page to resolve the issue.`
-
-![Started.](GetStarted/Issue1.png)
-
