@@ -1,7 +1,7 @@
 ## **OPTIONAL EXERCISE**
 
 
-### Exercise 4: Real-time Analytics experience, explore Streaming data using Copilot for KQL DB
+### Exercise 4: Real-Time Intelligence experience, explore Streaming data using Copilot for KQL DB
 
 Imagine it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are flocking to their stores in large numbers. We are about to witness the very culmination of Contoso's phenomenal transformation with Microsoft Fabric and ADB. Specifically, we will see how near real-time data is used to make decisions for the next moment in Contoso's stores to ensure optimal temperatures are maintained for their customers while they shop at the big sale!
 
