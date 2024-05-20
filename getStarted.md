@@ -60,7 +60,7 @@
 
 ![Started.](GetStarted/Task12.png)   
 
-`Note: After getting signed in to the Azure Portal, if you see a popup "Welcome to Microsoft Azure" click on "Cancel" to skip the tour and close the window.`
+Note: After getting signed in to the Azure Portal, if you see a popup "Welcome to Microsoft Azure" click on "Cancel" to skip the tour and close the window.
 
 #
 
