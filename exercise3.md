@@ -74,13 +74,13 @@ Note: Close any pop-up which apears on the screen.
 	
 10. Click on the **Prompt Guide** button.  
 
-11. Select the option **What's in my dataset?**.
+11. Select the option **What's in my data?**.
    
       ![Simulator.](mediaNew/task-new9.png)
 
-The first option, 'What’s in my dataset?' provides an overview of the contents of the dataset. It identifies and describes what the datasets and attributes are all about and provides a concise summary of the content. So, there’s no need to wait for someone to explain the dataset. This improves the efficiency and volume of report creation for Contoso.
+The first option, 'What’s in my data?' provides an overview of the contents of the dataset. It identifies and describes what the datasets and attributes are all about and provides a concise summary of the content. So, there’s no need to wait for someone to explain the dataset. This improves the efficiency and volume of report creation for Contoso.
 
-16. Enter the below prompt.:
+16. Enter the below prompt.
  
 ```BASH
 Create a report Bounce Rate analysis, to show the correlation between customer sentiment, particularly among millennials and Gen Z, unsuccessful product searches across different devices, and the website's bounce rate by customer generations.  
@@ -92,6 +92,8 @@ Note: *Wait for the prompt to populate.*
       ![Simulator.](mediaNew/task-new12.png)
 	
 >**Note:** If you see the error message saying, 'Something went wrong.', try refreshing the page and restart the task. Being in a shared environment, the service may be busy at times.
+
+>**Note:** The responses from Copilot may not match the ones in the screenshot but will provide a similar response.
 
 Based on this report, we notice that the website bounce rate for Contoso is especially high amongst the Millennial customer segment. Let’s ask Copilot if it has any recommendations for improving this bounce rate.
 
