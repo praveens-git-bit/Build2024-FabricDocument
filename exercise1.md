@@ -85,6 +85,8 @@ https://app.fabric.microsoft.com
 <inject key= "AzureAdUserEmail" enableCopy="true"/>
 ```
 
+![Pipeline.](mediaNew/fabricverify.png)
+
 6. On the Microsoft Fabric landing page, click on the **Data Factory** experience.
 
 ![Pipeline.](mediaNew/task-1.3.01.png)
