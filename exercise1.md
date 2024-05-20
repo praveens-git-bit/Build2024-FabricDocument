@@ -283,15 +283,15 @@ In this exercise, you will experience how easy it is to use Copilot to transform
 8. Click on the **Copilot** button, paste the **prompt** provided below in the text box and click on the **send** icon.
 
 ```BASH
-Use first row as header in sales_data table
+ In the table sales_data csv, apply first row as headers.
 ```
 
-![Datawarehouse.](mediaNew/task-1.2.07.png)
+![Datawarehouse.](mediaNew/df1.png)
 
 9. Similarly, you can paste the following prompts in Copilot for data transformation.
 
 ```BASH
-Remove empty rows from GrossRevenue and NetRevenue column from sales_data table
+In the table sales_data csv, remove empty rows from GrossRevenue and NetRevenue columns.
 ```
 
 >**Note:** Due to time constraints, we will not be publishing and running the Dataflow from the Pipeline.
