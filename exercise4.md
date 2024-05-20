@@ -214,7 +214,7 @@ Create a query to find average temperature every 1 min
 
 8. Click on the **Insert** button.
 
-![Close the browser.](mediaNew/task-5.3.7.png)
+![Close the browser.](mediaNew/kqlqueyset1.png)
 
 9. Select the **script**, click on the **Run** button and you get the desired result.
 
