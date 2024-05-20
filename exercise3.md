@@ -68,7 +68,7 @@ Note: Close any pop-up which apears on the screen.
 
  ![Simulator.](mediaNew/coplitclose.png)
 
-9. Click on the **Copilot** icon, collapse all the other three panes and then click on the **Get started** button.
+9. Click on the **Get started** button. You will now see how easy it is for the data analyst to create compelling Power BI reports and get deep insights with literally no hands-on coding!
 
    ![Simulator.](mediaNew/task-new8.png)
 	
