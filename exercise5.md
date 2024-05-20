@@ -25,6 +25,8 @@ Ultimately, we would like to understand our customers' sentiment so we can creat
 
 3. Navigate to **cmd 9**.
 
+Note: *Command numbers are written at the top of each cell.*
+
 With the data prepared, we can begin exploring the patterns it contains.
 
 Let's start by examining the customer churn outcome based on factors like a customer's tenure in months and their total amount spent at Contoso. As a result, we can see a high churn rate is seen if the customer's tenure is low, and they have a lower spend amount.
@@ -68,6 +70,8 @@ Once we have the predicted data, it is stored back in delta tables in the gold l
 ![Close the browser.](mediaNew/task-3.1.9.png)	
 
 ---
+
+## Task 1.1: Use the Data Pipelines/Data Flow for a ‘No Code, Low Code experience’ (Optional)
 
 ## Creating a Data Pipeline
 
