@@ -105,7 +105,7 @@ thermostat
 
 21. Select Data format as **JSON** and then click on the **Next** button.
 
-   ![Close the browser.](mediaNew/eventhouse14.png)
+   ![Close the browser.](mediaNew/eventhouse15.png)
 
 >**Note:** Wait for the connection to be established.
 
