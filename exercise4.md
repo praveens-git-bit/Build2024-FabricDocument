@@ -3,7 +3,7 @@
 
 ### Exercise 4: Real-time Analytics experience, explore Streaming data using Copilot for KQL DB
 
-Imagine it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are flocking to their stores in large numbers. We are about to witness the very culmination of Contoso's phenomenal transformation with Microsoft Fabric and ADB. Specifically, we will see how near real-time data is used to make decisions for the next moment in Contoso's stores to ensure optimal temperatures are maintained for their customers while they shop at the big sale! Let's see how!
+Imagine it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are flocking to their stores in large numbers. We are about to witness the very culmination of Contoso's phenomenal transformation with Microsoft Fabric and ADB. Specifically, we will see how near real-time data is used to make decisions for the next moment in Contoso's stores to ensure optimal temperatures are maintained for their customers while they shop at the big sale!
 
 ### Task 4.1: Ingest real-time/historical data into KQL DB using Eventstream
 
@@ -60,29 +60,29 @@ RealtimeDataTo-KQL-DB
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.4.png)
 
-11. To fill in the fields below we need to navigate to Azure Portal.
+12. To fill in the fields below we need to navigate to Azure Portal.
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.5.png)
 
-11. Navigate to the **Azure Portal**. In the **rg-fabric...** resource group, search for the **event hubs namespace** and click on the **Event Hubs Namespace** resource.
+13. Navigate to the **Azure Portal**. In the **rg-fabric...** resource group, search for the **event hubs namespace** and click on the **Event Hubs Namespace** resource.
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.6.png)
 
-13. In the left navigation pane expand the **Entities** section, click on **Event Hubs**, and then click on the **thermostat** event hub.
+14. In the left navigation pane expand the **Entities** section, click on **Event Hubs**, and then click on the **thermostat** event hub.
 
    ![Close the browser.](mediaNew/task-5.2.4-2.png)
 
-14. In the left pane expand **Settings**, click on **Shared access policies** and then click on **thermostat**.
+15. In the left pane expand **Settings**, click on **Shared access policies** and then click on **thermostat**.
 
    ![Close the browser.](mediaNew/task-5.2.4-3.png)
 
-15. Copy the **Primary key** and paste it in a notepad for further use. 
+16. Copy the **Primary key** and paste it in a notepad for further use. 
 
    ![Close the browser.](mediaNew/task-5.2.5.png)
 
-16. Go back to the **Fabric tab** on your browser.
+17. Go back to the **Fabric tab** on your browser.
 
-17. Make sure you are in the **Create new connection** section, paste the below value for **Event Hub namespace** and enter the **Event Hub** value as **thermostat**.
+19. Make sure you are in the **Create new connection** section, paste the below value for **Event Hub namespace** and enter the **Event Hub** value as **thermostat**.
 
 ```BASH
 <inject key= "eventhubNamespace" enableCopy="true"/>
@@ -92,65 +92,67 @@ thermostat
 ```
    ![Close the browser.](mediaNew/task-5.2.5-2.png)
 
-18. Scroll down and select **Shared Access Key** for Authentication kind, enter **thermostat** as the Shared Access Key Name and then paste the value copied in **step 12** in the **Shared Access Key**.
+20. Scroll down and select **Shared Access Key** for Authentication kind, enter **thermostat** as the Shared Access Key Name and then paste the value copied in **step 16** in the **Shared Access Key**.
 
 ```BASH
 thermostat
 ```
 
 
-20. Select Data format as **JSON** and then click on the **Connect** button.
+21. Select Data format as **JSON** and then click on the **Connect** button.
 
    ![Close the browser.](mediaNew/task-5.2.5-3.png)
 
 >**Note:** Wait for the connection to be established.
 
-20. Click on the **Next** button.
+22. Click on the **Next** button.
 
    ![Close the browser.](mediaNew/task-5.2.1new7.png)
 
-21. Click on the **Add** button.
+23. Click on the **Add** button.
 
    ![Close the browser.](mediaNew/task-5.2.1new8.png)
 
-22. In the Eventstream canvas, click on the **New destination** dropdown and select **KQL Database**.
+24. In the Eventstream canvas, click on the **New destination** dropdown and select **KQL Database**.
 
    ![Close the browser.](mediaNew/task-5.2.1new9.png)
 
-23. Select the **Event processing before ingestion** radio button, enter **RealTimeData** as the Destination name.
+25. Select the **Event processing before ingestion** radio button, enter **RealTimeData** as the Destination name.
 
 ```BASH
 RealTimeData
 ```
 
-25. Select **contosoSales...** and **Contoso-KQL-DB** from the respective 'Workspace' and 'KQL Database' dropdowns.
+26. Select **contosoSales...** and **Contoso-KQL-DB** from the respective 'Workspace' and 'KQL Database' dropdowns.
 
-26. Finally click on the **Create new** button.
+27. Finally click on the **Create new** button.
 
    ![Close the browser.](mediaNew/task-5.2.12.png)
 
-26. Enter the table name as **thermostat** and then click on the **Done** button.
+28. Enter the table name as **thermostat** and then click on the **Done** button.
 
 ```BASH
 thermostat
 ```
    ![Close the browser.](mediaNew/task-5.2.13.png)
 
-27. Enter the Input data format as **Json**.
+29. Enter the Input data format as **Json**.
 
 Note: *Zoom-out on your screen if the Input data format field is not visible.*
 
    ![Close the browser.](mediaNew/task-5.2.14.png)
 
-28. Drag Arrow from 'RealtimeDataTo-KQL' and connect it to 'RealTimeData'.
+30. Drag Arrow from 'RealtimeDataTo-KQL' and connect it to 'RealTimeData'.
 
 ![Close the browser.](mediaNew/realtimedata.png)
 
 Note: *Wait for the data ingestion from EventHub to KQL DB.*
 
-29. Now, click on the **Publish** button.
+31. Now, click on the **Publish** button.
     
    ![Close the browser.](mediaNew/task-5.2.15.png)
+
+Note: *Wait for the data ingestion from EventHub to KQL DB.*
 
 Real-time data from the event hub has been ingested successfully into the KQL Database. Next, as customers walk in aisles and the temperatures fluctuate, let us see how KQL queries proactively identify anomalies and help maintain an optimal shopping experience!
 
@@ -211,6 +213,6 @@ Create a query to find average temperature every 1 min
 
 ![Close the browser.](mediaNew/task-5.3.8.png)
 
-So, imagine if one of the aisles had a sudden rise in temperature. Customers start leaving that aisle and the wait time in checkout lines start to increase. But thanks to the KQL Queries, those anomalies would be tracked and immediate notifications would be generated to bring the aisle temperature back to optimal levels! Now, after all these amazing data transformations in OneLake in a healthy ecosystem with Azure Databricks, can we actually predict customer churn for the future? Absolutely! In fact, in the next exercise, let’s see the power of Microsoft Fabric and Azure Databricks to do just that!
+So, imagine if one of the aisles had a sudden rise in temperature. Customers start leaving that aisle and the wait times in the checkout lines start to increase. But thanks to the KQL Queries, those anomalies would be tracked and immediate notifications would be generated to bring the aisle temperature back to optimal levels! Now, after all these amazing data transformations in OneLake in a healthy ecosystem with Azure Databricks, can we actually predict customer churn for the future? Absolutely! In fact, in the next exercise, let’s see the power of Microsoft Fabric and Azure Databricks to do just that!
 
 ---
