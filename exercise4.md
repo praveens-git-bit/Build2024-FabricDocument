@@ -19,15 +19,16 @@ Note: *If you see any pop up click on* **Don't Save.**
 
 	![Close the browser.](mediaNew/task-1.2.1.png)
 
-2. In the new window, scroll down to the **Real-Time Analytics** section and click on **KQL Database**.
+2. In the new window, scroll down to the **Real-Time Intelligence** section and click on **Eventhouse**.
 
-Note: *Wait for the new KQL Database to popup.*
-	![Close the browser.](mediaNew/task-5.1.3.png)
+Note: *Wait for the new Eventhouse to popup.*
 
-4. Enter the name **Contoso-KQL-DB**, click on the **Create** button and wait for the database to be created.
+![Close the browser.](mediaNew/eventhouse.png)
+
+4. Enter the name **Contoso-Eventhouse**, click on the **Create** button and wait for the database to be created.
 
 ```BASH
-Contoso-KQL-DB
+Contoso-Eventhouse
 ```
 ![Close the browser.](mediaNew/task-5.1.4.png)
 
