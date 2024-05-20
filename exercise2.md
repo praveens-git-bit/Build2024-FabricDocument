@@ -104,25 +104,25 @@ By simply using a natural language query and leveraging the AI generated table a
 
 ![Databricks.](mediaNew/task-2.4.1new.png)
 
-11.	In the query, **delete** the last 2/3 letters to introduce an error.
+11.	**Run** the query.
 
-12.	Click on **Run** to see the error.
+12.	Check the output.
 
-13.	Click on **Diagnose error** to fix the query issue. 
+![Databricks.](mediaNew/task-2.5new.png)
+
+Users also have the capability to fix errors in queries with the AI assistant. Let's intentionally introduce an error by misspelling a table name and see the AI's response.
+
+13.	In the query, **delete** the last 2/3 letters to introduce an error.
+
+14.	Click on **Run** to see the error.
+
+15.	Click on Diagnose error to fix the query issue. See how easily the error is fixed! It is like having a virtual assistant available 24 hours!
 
 ![Databricks.](mediaNew/task-2.6new.png)
 
 14. Click on the **Arrow** to replace the current code.
 
 ![Databricks.](mediaNew/task-2.4.1new.png)
-
-15.	**Run** the query.
-
-16.	Check the output.
-
->**Note:** Make sure Warehouse is in ready mode
-
-![Databricks.](mediaNew/task-2.5new.png)
 	
 Data discovery is also made simple within Azure Databricks. Users can simply search for table names or the information they are looking for in the global search and all the relevant items are returned, again leveraging the table and field descriptions created by AI and data intelligence mentioned earlier.
 
@@ -130,12 +130,14 @@ Data discovery is also made simple within Azure Databricks. Users can simply sea
 
 17.	Click on **Open search in a full page**.
 
-18. Search for **campaigns** and press enter.
-
 ![Databricks.](mediaNew/task-2.7new.png)
 
 Click on the search box to search for Find information about customers who have churned with paperless billing and short tenure. and then click on show all results. Now, the next big challenge for Contoso was to get visibility of their Market Sentiment KPI. Remember, the Market Sentiment before the acquisition was at an all-time low. News articles and analyst reviews were being continuously published. All this unstructured data had to be efficiently assimilated so that the Market Sentiment could be tracked. That brings us to the next task. Let us see!
-	
+
+18. Click on the search box to search for **Find information about customers who have churned with paperless billing and short tenure.** and then click on show all results. Now, the next big challenge for Contoso was to get visibility of their Market Sentiment KPI. Remember, the Market Sentiment before the acquisition was at an all-time low. News articles and analyst reviews were being continuously published. All this unstructured data had to be efficiently assimilated so that the Market Sentiment could be tracked. That brings us to the next task.
+
+![Databricks.](mediaNew/task-2.7new.png)
+
 ---
 
 
