@@ -75,42 +75,20 @@ Once we have the predicted data, it is stored back in delta tables in the gold l
 
 ## Creating a Data Pipeline
 
-11. Open a new tab on your browser and navigate to Microsoft Fabric
-```BASH
-https://app.fabric.microsoft.com
-```
-**Note**: If you are seeing "Enter your email, we'll check if you need to create a new account" please provide the email ID you provided to signin into Azure.
+1. Navigate back to Microsoft Fabric tab on your browser.
 
-```BASH
-<inject key= "AzureAdUserEmail" enableCopy="true"/>
-```
+2. Click on Workspaces in the left navigation pane and select contosoSales..
 
-12. On the Microsoft Fabric landing page, click on the **Data Factory** experience.
+   ![Create Power BI Workspace.](mediaNew/task-1.1-new4.png)
 
-![Pipeline.](mediaNew/task-1.3.01.png)
+3. Click on **Filter** and select **Data pipeline**.
 
-13. Click on **Workspaces** and select the **contosoSales...** workspace.
+ ![Create Power BI Workspace.](mediaNew/pip1.png)
 
-![Create Power BI Workspace.](mediaNew/task-1.1-new4.png)
+4. Click on **Azure SQL DB Pipeline.**
 
-14. Click the **Data Factory** icon in the bottom left corner of the screen to select **Data Factory**.
-
-![Pipeline.](mediaNew/task-1.3.1.png)
-
-15. Click on **Data pipeline**.
-
-![Pipeline.](mediaNew/task-1.3.2.png)
-
-*Wait for the New pipeline pop-up box to appear*
-
-16. In the pop-up, type the pipeline name **Azure SQL DB Pipeline** and click on the **Create** button.
-
-```BASH
-Azure SQL DB Pipeline
-```
-
-![Pipeline.](mediaNew/task-1.3.3.png)
-
+![Create Power BI Workspace.](mediaNew/pip2.png)
+   
 17. In the Data pipeline window, click on **Copy data assistant**.
 
 Note: *If the **copy data assistant** is not visible in the screen, please scroll up.*
