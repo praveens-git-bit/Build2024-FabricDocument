@@ -157,9 +157,11 @@ Note: *Click on the collapse icon, as shown in the screenshot below, for better 
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut2.png)
 
-4. Click on the **three dots (Elipse)** on the right side of Files.
+4. Click on the **three dots (Elipse)** on the right side of **Files**.
 
-5. Click on **New shortcut**.
+![Lakehouse.](mediaNew/fileeclipse.png)
+
+6. Click on **New shortcut**.
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut3.png)
 
@@ -209,7 +211,7 @@ Note: *Click on the collapse icon, as shown in the screenshot below, for better 
 ```
 17. In the **Authentiation kind** dropdown, select **Account Key**.
 
-18. Paste the **account key** copied in **step number 15**.
+18. Paste the **account key** copied in **step number 14**.
 
 19. Click on **Next**.
 
