@@ -74,7 +74,7 @@ https://regale.cloud/Microsoft/viewer/3066/task-22-explore-the-data-in-azure-dat
 3.	Click on **Catalog**.
 5.	Expand **litware_unity_catalog db**.
 6.	Expand the **rag** schema and followed by **tables**.
-7.	Click on **silver_customerChurn** table.
+7.	Click on **silver_customer_churn** table.
 
 ![Databricks.](mediaNew/task-2.1new.png)
 
