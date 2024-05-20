@@ -136,16 +136,4 @@ Click on the search box to search for Find information about customers who have 
 	
 ---
 
-### Task 2.3 (OPTIONAL) Deploy LLM Chatbots With the Databricks data Intelligence Platform
-
-Contoso also wanted to improve how efficiently they analyzed hundreds of documents and news articles about their big merger and their company policies. Why? To track and improve their Market Sentiment KPI. Azure Databricks provides just the solution with its Delta Lake architecture supporting unstructured data, like PDF documents, with Lang chain models leveraging the Databricks Foundation Model for creating custom chatbots. Let's see how this was done.
-
-**Note**: This section is optional. Due to time constraints, the following steps will be completed via an online Click-by-Click for setting up the Unity Catalog. Please follow the green beacons and the instructions on the screen for this exercise..
-
-```BASH
-https://regale.cloud/Microsoft/viewer/3067/task-23-deploy-llm-chatbots-with-the-data-intelligence-platform/index.html#/0/0
-```
-1. Click on the Start Demo button.
-
-![Databricks.](mediaNew/start-demo.png)
 
