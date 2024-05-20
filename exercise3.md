@@ -129,6 +129,8 @@ Based on the data in the report, what can be done to improve the bounce rate of 
 ![Simulator.](mediaNew/expand-arrow.png)
 
 27. Click on close button in the above near **Create a narrative with copilot.**
+
+![Simulator.](mediaNew/close-copilot.png)
      
 The summary could also be generated in another language if specified. Additionally, the summary updates if you filter the report on any visual. How cool is that!
 
