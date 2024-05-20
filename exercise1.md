@@ -55,13 +55,13 @@ https://app.powerbi.com
 
 Now, let's see how each department can easily create a Lakehouse in the Contoso workspace without any provisioning. They simply provide a name, given the proper access rights of course!
 
-1. In Power BI service, click **+ New** and then select **More options**.
+1. Click on the **left bottom icon** and click on **Data Engineering**.
 
-![Close the browser.](mediaNew/task-1.2.1.png)
+![Close the browser.](mediaNew/task-wb1.png)
 
 2. In the new window, under the Data Engineering section, click on **Lakehouse**.
 
-   ![Close the browser.](mediaNew/task-1.2.2.png)
+   ![Close the browser.](mediaNew/task-wb2.png)
 
 *Wait for the New lakehouse pop-up box to appear*
 
