@@ -120,10 +120,9 @@ Based on the data in the report, what can be done to improve the bounce rate of 
       ![Simulator.](mediaNew/task-new16.png)
 
 25. Expand the narrative from the corner to get a better readable view of the result.
+![Simulator.](mediaNew/expand-arrow.png)
 
-	![Simulator.](mediaNew/expand-arrow.png)
-
-26. Click on close button in the above near **Create a narrative with copilot.**
+27. Click on close button in the above near **Create a narrative with copilot.**
      
 The summary could also be generated in another language if specified. Additionally, the summary updates if you filter the report on any visual. How cool is that!
 
