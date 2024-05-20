@@ -32,6 +32,10 @@ Contoso-Eventhouse
 ```
 ![Close the browser.](mediaNew/eventhouse2.png)
 
+**Note:** If you see a pop-up like the one in the screenshot below, ignore it and proceed with the next step.
+
+![Close the browser.](mediaNew/eventhouse16.png)
+
 6. Click on **Real-Time Intelligence** at the bottom left corner of the screen and select **Real-Time Intelligence**.
 
    ![Close the browser.](mediaNew/Realtime-Intelligence.png)
