@@ -15,15 +15,15 @@ Note: *If you see any pop up click on* **Don't Save.**
 
 ![Create Power BI Workspace.](mediaNew/donotsave.png)
 
-1. While you are in the Fabric workspace homepage, click on **+ New** and then click on **More options**.
+1. While you are in the Fabric workspace homepage, click on the **experience** button on the **bottom left** of the screen and then select **Real-Time Intelligence**.
 
-	![Close the browser.](mediaNew/task-1.2.1.png)
+	![Close the browser.](mediaNew/Realtime-Intelligence.png)
 
-2. In the new window, scroll down to the **Real-Time Intelligence** section and click on **Eventhouse**.
+2. On Real-Time Intelligence experience screen, click on **Eventhouse.**
 
 Note: *Wait for the new Eventhouse to popup.*
 
-![Close the browser.](mediaNew/eventhouse.png)
+![Close the browser.](mediaNew/eventhouse1.png)
 
 4. Enter the name **Contoso-Eventhouse**, click on the **Create** button and wait for the database to be created.
 
