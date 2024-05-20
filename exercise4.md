@@ -192,9 +192,9 @@ Query Thermostat Data in Near Real-time using KQL Script
 
 ![Close the browser.](mediaNew/task-5.3.3.png)
 
-5. **Wait** for the query set creation and a new screen will display. In this screen, click on **Contoso-KQL-DB**, verify the workspace name and then click on the **Connect** button.
+5. **Wait** for the query set creation and a new screen will display. In this screen, click on **Contoso-Eventhouse**, verify the workspace name and then click on the **Connect** button.
 
-![Close the browser.](mediaNew/task-5.3.4.png)
+![Close the browser.](mediaNew/eventhouse10.png)
 
 6. Place your cursor inside the query field, select all using Ctrl + A and delete the pre-written query
 
