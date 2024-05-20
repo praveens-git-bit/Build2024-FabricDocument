@@ -276,7 +276,7 @@ In this exercise, you will experience how easy it is to use Copilot to transform
 
 7. Expand **Lakehouse** > **contosoSales...** > **Lakehouse...** > **Files** > **data** and check the **sales_data.csv** checkbox, then **click** on the **Create** button.
 
-![Datawarehouse.](mediaNew/task-1.2.06.png)
+![Datawarehouse.](mediaNew/csvfile.png)
 
 8. Click on the **Copilot** button, paste the **prompt** provided below in the text box and click on the **send** icon.
 
