@@ -127,7 +127,7 @@ thermostat
 RealTimeData
 ```
 
-26. Select **contosoSales...** and **Contoso-KQL-DB** from the respective 'Workspace' and 'KQL Database' dropdowns.
+26. Select **contosoSales...** and **Contoso-Eventhouse** from the respective 'Workspace' and 'KQL Database' dropdowns.
 
 27. Finally click on the **Create new** button.
 
