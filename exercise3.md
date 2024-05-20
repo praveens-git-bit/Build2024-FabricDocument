@@ -121,7 +121,7 @@ Based on the data in the report, what can be done to improve the bounce rate of 
 
 25. Expand the narrative from the corner to get a better readable view of the result.
 
-	![Simulator.](mediaNew/expand-arrow.png)
+![Simulator.](mediaNew/expand-arrow.png)
 
 26. Click on close button in the above near **Create a narrative with copilot.**
      
