@@ -60,6 +60,10 @@ RealtimeDataTo-KQL-DB
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.4.png)
 
+12. Under Connection Click on New connection.
+
+![Close the browser.](mediaNew/eventhouse13.png)
+
 12. To fill in the fields below we need to navigate to Azure Portal.
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.5.png)
