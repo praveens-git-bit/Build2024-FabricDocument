@@ -277,6 +277,10 @@ In this exercise, you will experience how easy it is to use Copilot to transform
 
 ![Datawarehouse.](mediaNew/csvfile.png)
 
+8. **Click** on **create** button from the bottom.
+
+![Datawarehouse.](mediaNew/task-wb9.S.png)
+
 8. Click on the **Copilot** button, paste the **prompt** provided below in the text box and click on the **send** icon.
 
 ```BASH
