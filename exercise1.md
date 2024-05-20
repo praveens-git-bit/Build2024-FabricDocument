@@ -139,7 +139,7 @@ Due to time constraint, creating a **Data pipeline** is optional. To continue wi
 
 ### Task 1.2: Use ‘New Shortcut’ option from external data sources
 
-Now this is something exciting and most powerful! This section shows how easy it is to create shortcuts without actually moving data. That is the power of OneLake! In this exercise, you will ingest the curated bounce rate data for Litware from ADLS Gen2 as an illustration. They also have marketing, sales, customer churn and product reviews data for Litware which can also be ingested.
+Now this is something exciting and most powerful! This section shows how easy it is to create shortcuts without actually moving data. That is the power of OneLake! In this exercise, you will ingest the curated bounce rate data for Litware from ADLS Gen2 as an illustration.
 
 1. Click on the workspace icon on the left side bar of the page.
 
