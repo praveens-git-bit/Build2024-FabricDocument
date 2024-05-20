@@ -40,7 +40,7 @@ Contoso-Eventhouse
 
    ![Close the browser.](mediaNew/eventhouse4.png)
 
-9. Enter the name as **RealtimeDataTo-KQL-DB** and click on **Create** button.
+9. Enter the name as **RealtimeDataTo-KQL-DB** and and tick a checkbox 'Enhanced Capabilities(preview)' click on **Create** button.
 
 ```BASH
 RealtimeDataTo-KQL-DB
