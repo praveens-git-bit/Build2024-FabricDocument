@@ -160,12 +160,9 @@ Note: *Click on the collapse icon, as shown in the screenshot below, for better 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut2.png)
 
 4. Click on the **three dots (Elipse)** on the right side of **Files**.
+5. Click on **New shortcut**.
 
-![Lakehouse.](mediaNew/fileeclipse.png)
-
-6. Click on **New shortcut**.
-
-![Lakehouse.](mediaNew/task-1.3-ext-shortcut3.png)
+![Lakehouse.](mediaNew/task-wb5.png)
 
 6. In the pop-up window, under **External sources**, select the **Azure Data Lake Storage Gen2** source.
 
