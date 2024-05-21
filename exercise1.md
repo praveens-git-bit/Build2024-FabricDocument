@@ -59,7 +59,7 @@ Now, let's see how each department can easily create a Lakehouse in the Contoso 
 
 ![Close the browser.](mediaNew/task-wb1.png)
 
-2. In the new window, under the Data Engineering section, click on **Lakehouse**.
+2. In the new window, under the Data Engineering section, click **Lakehouse**.
 
    ![Close the browser.](mediaNew/task-wb2.png)
 
