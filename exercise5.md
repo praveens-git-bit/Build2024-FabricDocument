@@ -103,10 +103,7 @@ Note: *If the **copy data assistant** is not visible in the screen, please scrol
 
 19. Select the **Create new connection** radio button.
 
->**Note:** To fill in the details for required fields, we need to fetch the data from the SQL Database resource deployed in the Azure Portal, due to the time constrain we have provided the details below.
-
 ![Pipeline.](mediaNew/task-1.3.6.png)
-
 
 20. In the **Server** field, paste the value from the below.
 ```BASH
@@ -150,11 +147,12 @@ Note: *Wait for the source to be appeared.*
 ![Datawarehouse.](mediaNew/task-1.3.19.png)
 
 29. Select the **Load to new table** radio button, click on the **checkbox** beside **Source** and then click on **Next**.
+
 Note: *Wait for the mapping data source to be appeared.*
 
 ![Datawarehouse.](mediaNew/task-1.3.20.png)
 
-31. Click on **Save + Run**.
+30. Click on **Save + Run**.
 
 ![Datawarehouse.](mediaNew/task-1.3.21.png)
 
