@@ -211,9 +211,7 @@ Note: *Click on the collapse icon, as shown in the screenshot below, for better 
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut10.png)
 
-22. And there you go! Your shortcut is now ready! Simply click on the newly created shortcut named data.
-
-23. Click on the newly created shortcut named data.
+22. And there you go! Your shortcut is now ready! Simply click on the newly created shortcut named **data**.
 
 ![Lakehouse.](mediaNew/task-wb7.png)
 
@@ -239,7 +237,7 @@ Note: *wait for sometime to data to get load into the tables*
 
 ### Task 1.3: Transform data using Dataflow Gen2 using a ‘No Code-Low Code experience’ Copilot
 
-In this exercise, you will experience how easy it is to use Copilot to transform sales data. 
+In this exercise, you will experience how easy it is to use Copilot to transform Litware's sales data into the lakehouse.
 
 1. Click on the **Data Factory** icon on the bottom left corner of the screen and select **Data Factory**.
 
@@ -249,7 +247,7 @@ In this exercise, you will experience how easy it is to use Copilot to transform
 
 ![Datawarehouse.](mediaNew/task-1.2.02.png)
 
-3. Click on the **Get data** button.
+3. Click on the **Get data** icon (**not on the dropdown arrow at the bottom of the icon**).
 
 Note: If you see **New Query** in place of **Get Data**, click on drop down and select **Get Data.**
 
@@ -293,6 +291,8 @@ Note: If you see **New Query** in place of **Get Data**, click on drop down and 
 
 ![Datawarehouse.](mediaNew/df1.png)
 
+**Note:** *If Copilot needs additional context to understand your query, consider rephrasing the prompt to include more details.*
+
 9. Scroll to the right hand side and observe the **GrossRevenue** and **NetRevenue** columns (**there are some empty rows with null values**).
 
 ![Datawarehouse.](mediaNew/DFData12.png)
@@ -302,7 +302,7 @@ Note: If you see **New Query** in place of **Get Data**, click on drop down and 
 10. Similarly, paste the prompt below in Copilot and click on the send icon.
     
 ```BASH
-In the table sales_data csv, remove empty rows from GrossRevenue and NetRevenue columns.
+Remove empty rows from GrossRevenue and NetRevenue columns.
 ```
 
 >**Note:** Due to time constraints, we will not be publishing and running the Dataflow from the Pipeline.
