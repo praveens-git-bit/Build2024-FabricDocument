@@ -123,8 +123,10 @@ Note: *If the **copy data assistant** is not visible in the screen, please scrol
 
    ![Pipeline.](mediaNew/newsourceviewmore.png)
 
-13. We already have 40+ connectors available for data pipeline from disparate sources in Microsoft Fabric. By viewing the connectors please close the Copy data pop up.
+13. We already have 40+ connectors available for the data pipeline from a spectrum of sources in **Microsoft Fabric**.
 
+14. Click on **X** icon in the **upper right corner** of the pop-up. Click on Cancel.
+    
 Note: *If the close button is not visible, please slide right from the below slider and close the pop up.*
 
    ![Pipeline.](mediaNew/datasources-fabric.png)
@@ -133,9 +135,9 @@ Note: *If the close button is not visible, please slide right from the below sli
 
    ![Pipeline.](mediaNew/yes-cancel.png)
 
-Due to time constraint, creating a **Data pipeline** is optional. To continue with the Data pipeline creation please go to page 7.
+Note: *Due to time constraints, we will not be creating a Data pipeline at this time. You can perform this optional step (found in the appendix) later.*
 
-15. Similarly, you can get data into the Lakehouses using pipelines from a variety of other sources like Snowflake, Dataverse, etc. Now, your next task is to ingest data from the acquired company, Litware Inc., into the lakehouse from ADLS Gen 2. Data such as customer churn, sales, campaigns and also website bounce rate. So, let’s start by creating a shortcut for this external data.
+15. Similarly, you can get data into the Lakehouses using pipelines from a variety of other sources like Snowflake, Dataverse, etc. Your next task is to ingest website bounce rate data from the acquired company Litware Inc.
 
 ---
 
