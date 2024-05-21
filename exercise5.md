@@ -15,7 +15,7 @@ After multiple iterations with various hyperparameters, the best performing mode
 
 1. Navigate back to the **Databricks workspace** we started for the previous exercise.
 
-2. In the left navigation pane, select **Workspace** and click **Workspace** again. Select **Shared**, click on **Analytics with ADB** and finally click on the **03 ML Solutions in a Box.ipynb** notebook.
+2. In the left navigation pane, select **Workspace** and click **Workspace** again. Select **Shared**, click on **Analytics with ADB** and finally click on the **02 ML Solutions in a Box.ipynb** notebook.
 
 ![Close the browser.](mediaNew/task-3.1.2.png)
 
@@ -95,13 +95,11 @@ Note: *If the **copy data assistant** is not visible in the screen, please scrol
 
 ![Pipeline.](mediaNew/task-1.3.4.png)
 
-18. In the pop-up, scroll down through the resources, click on **Azure SQL Database** and then click on the **Next** button.
+18. In the pop-up, click on **+New** tab and scroll down through the resources, click on **Azure SQL Database**.
 
 >**Note** You may not see the **Azure SQL Database** in the same location as shown in the screenshot.
 
 ![Pipeline.](mediaNew/datasources-fabric.png)
-
-FACT: *We already have 40+ connectors available for data pipeline from disparate sources in Microsoft Fabric.*
 
 19. Select the **Create new connection** radio button.
 
