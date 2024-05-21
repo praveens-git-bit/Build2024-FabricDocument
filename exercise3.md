@@ -11,7 +11,7 @@ With the wide spectrum data sources as well as Litware's data in OneLake, it is 
 
 ![Pipeline.](mediaNew/task-1.1-new4.png)
 
-3. In the **contosoSales...** workspace, click on **Filter** and select **Lakehouse**.
+3. Click on **Filter** and select **Lakehouse**.
 
    ![Lakehouse.](mediaNew/task-1.3-ext-shortcut1.png)	
 
