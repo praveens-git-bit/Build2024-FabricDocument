@@ -241,11 +241,17 @@ Note: *Click on the collapse icon, as shown in the screenshot below, for better 
 
 ![Lakehouse.](mediaNew/task-wb8.png)
 
-26. In the pop-up verify the **New table name** and then click on the **Load** button.  And just like that you now have a table in OneLake with all the website bounce rate information for Contoso to leverage. How cool is that? Next, we proceed with data transformation using Dataflow Gen2 to transform the Sales data ingested from Litware.
+26. In the pop-up verify the **New table name** and then click on the **Load** button.
 
 Note: *wait for sometime to data to get load into the tables*
 
 ![alt text](mediaNew/task-new3.png)
+
+27. Expand **Tables** in lakehouse explorer, click on **website_bounce_rate** delta table and view the website bounce rate data.
+
+![alt text](mediaNew/StloadtableNew.png)
+
+28. You now have a table in **OneLake** with all the website bounce rate information for Contoso to leverage. Next, we proceed with data transformation using Dataflow Gen2 to transform the sales data ingested from Litware.
 
 ---
 
@@ -286,6 +292,12 @@ Note: If you see **New Query** in place of **Get Data**, click on drop down and 
 8. **Click** on **create** button from the bottom.
 
 ![Datawarehouse.](mediaNew/task-wb9.S.png)
+
+9. Collapse the **Queries** pane and take a look at the sales dataset (**note that the first row of this dataset is not a header**).
+
+    ![Datawarehouse.](mediaNew/DFData.png)
+
+`**Let's use Copilot to perform data cleansing.**
 
 8. Click on the **Copilot** button, paste the **prompt** provided below in the text box and click on the **send** icon.
 
