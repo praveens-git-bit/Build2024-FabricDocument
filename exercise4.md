@@ -41,7 +41,7 @@ Contoso-Eventhouse
 
    ![Close the browser.](mediaNew/Realtime-Intelligence.png)
 
-7. Scroll down and search for **Eventstream** under **Real-Time Intelligence.**
+7. Select **Eventstream**.
 
    ![Close the browser.](mediaNew/eventhouse4.png)
 
@@ -61,31 +61,31 @@ RealtimeDataTo-KQL-DB
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.4.png)
 
-12. Under Connection Click on **New connection**.
+12. Under Connection field, click on **New connection**.
 
 ![Close the browser.](mediaNew/eventhouse13.png)
 
-12. To fill in the fields below we need to navigate to Azure Portal.
+13. To fill in the fields below we need to navigate to Azure Portal.
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.5.png)
 
-13. Navigate to the **Azure Portal**. In the **rg-fabric...** resource group, search for the **event hubs namespace** and click on the **Event Hubs Namespace** resource.
+14. Navigate to the **Azure Portal**. In the **rg-fabric...** resource group, search for the **event hubs namespace** and click on the **Event Hubs Namespace** resource.
 
    ![Close the browser.](mediaNew/task-5.2.1new1.0.6.png)
 
-14. In the left navigation pane expand the **Entities** section, click on **Event Hubs**, and then click on the **thermostat** event hub.
+15. In the left navigation pane expand the **Entities** section, click on **Event Hubs**, and then click on the **thermostat** event hub.
 
    ![Close the browser.](mediaNew/task-5.2.4-2.png)
 
-15. In the left pane expand **Settings**, click on **Shared access policies** and then click on **thermostat**.
+16. In the left pane expand **Settings**, click on **Shared access policies** and then click on **thermostat**.
 
    ![Close the browser.](mediaNew/task-5.2.4-3.png)
 
-16. Copy the **Primary key** and paste it in a notepad for further use. 
+17. Copy the **Primary key** and paste it in a notepad for further use. 
 
    ![Close the browser.](mediaNew/task-5.2.5.png)
 
-17. Go back to the **Fabric tab** on your browser.
+18. Go back to the **Fabric tab** on your browser.
 
 19. Make sure you are in the **Create new connection** section, paste the below value for **Event Hub namespace** and enter the **Event Hub** value as **thermostat**.
 
@@ -97,7 +97,7 @@ thermostat
 ```
    ![Close the browser.](mediaNew/task-5.2.5-2.png)
 
-20. Scroll down and select **Shared Access Key** for Authentication kind, enter **thermostat** as the Shared Access Key Name and then paste the value copied in **step 16** in the **Shared Access Key**.
+20. Scroll down and select **Shared Access Key** for Authentication kind, enter **thermostat** as the Shared Access Key Name and then paste the value copied in **step 17** in the **Shared Access Key**.
 
 ```BASH
 thermostat
@@ -118,7 +118,7 @@ thermostat
 
    ![Close the browser.](mediaNew/task-5.2.1new8.png)
 
-24. In the Eventstream canvas, click on the **New destination** dropdown and select **KQL Database**.
+24. In the Eventstream canvas, click on the **Add destination** dropdown and select **KQL Database**.
 
    ![Close the browser.](mediaNew/task-5.2.1new9.png)
 
@@ -128,9 +128,11 @@ thermostat
 RealTimeData
 ```
 
-26. Select **contosoSales...** and **Contoso-Eventhouse** from the respective 'Workspace' and 'KQL Database' dropdowns.
+26. In the **Worksapce** field select **contosoSales...**
 
-27. Finally click on the **Create new** button.
+27. In the **KQL Database** dropdown select **Contoso-Eventhouse**.
+
+28. Click on the **Create new** button.
 
    ![Close the browser.](mediaNew/task-5.2.13.png)
 
@@ -159,7 +161,7 @@ Note: *Wait for the data ingestion from EventHub to KQL DB.*
 
 Note: *Wait for the data ingestion from EventHub to KQL DB.*
 
-32. Once you see that the streaming has started, click on Refresh and wait for the data to preview.
+32. Once you see that the streaming has started, click on **Refresh** and wait for the data to preview.
 
     ![Close the browser.](mediaNew/eventhouse17.png)
 
@@ -185,7 +187,7 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
 ![Close the browser.](mediaNew/eventhouse9.png)
 
-4. Enter **Query Thermostat Data in Near Real-time using KQL Script** as the name and click on the **Create** button.
+4. In the KQL Queryset name field, **Query Thermostat Data in Near Real-time using KQL Script** as the name and click on the **Create** button.
 
 ```BASH
 Query Thermostat Data in Near Real-time using KQL Script
@@ -197,7 +199,7 @@ Query Thermostat Data in Near Real-time using KQL Script
 
 ![Close the browser.](mediaNew/eventhouse10.png)
 
-6. Place your cursor inside the query field, select all using Ctrl + A and delete the pre-written query
+6. Place your cursor inside the **query** field, select all using **Ctrl + A** and **delete** the pre-written query
 
 ![Close the browser.](mediaNew/task-5.3.5.png)
 
@@ -213,11 +215,13 @@ Create a query to find average temperature every 1 min
 
 7. Click on the **send** icon.
 
+**Note:** The responses from Copilot may not match the ones in the screenshot but will provide a similar response.
+
 8. Click on the **Insert** button.
 
 ![Close the browser.](mediaNew/kqlqueyset1.png)
 
-9. Select the **script**, click on the **Run** button and you get the desired result.
+9. Place you cursor in the **script field**, click on the **Run** button and you get the desired result.
 
 ![Close the browser.](mediaNew/task-5.3.8.png)
 
