@@ -58,14 +58,11 @@ With the acquisition of Litware Inc., Contoso had a lot of data integration and 
 
 **Note**: Due to time constraints, the following steps will be completed via an online Click-by-Click. Please follow the green beacons for this exercise.
 
-	- This exercise will be performed outside the VM browser.
-	- Please return back to the VM browser once you see the End of Task 2.2 screen.
-        - Once you press the Agree button, press the A key on your keyboard if you do not see the annotations.
+- This exercise will be performed outside the VM browser.
+- Please return back to the VM browser once you see the End of Task 2.2 screen.
+- Once you press the Agree button, press the A key on your keyboard if you do not see the annotations.
 
-1. Click on the [hyperlink](https://regale.cloud/Microsoft/viewer/3066/task-22-explore-the-data-in-azure-databricks-environment-with-unity-catalog/index.html#/0/0)
+1. Click on the **[hyperlink](https://regale.cloud/Microsoft/viewer/3066/task-22-explore-the-data-in-azure-databricks-environment-with-unity-catalog/index.html#/0/0)**
 
-```BASH
-https://regale.cloud/Microsoft/viewer/3066/task-22-explore-the-data-in-azure-databricks-environment-with-unity-catalog/index.html#/0/0
-```
 2. Continue with next excercise.
 
