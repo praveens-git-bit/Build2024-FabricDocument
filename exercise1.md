@@ -297,7 +297,7 @@ Note: If you see **New Query** in place of **Get Data**, click on drop down and 
 
     ![Datawarehouse.](mediaNew/DFData.png)
 
-`**Let's use Copilot to perform data cleansing.**
+**Let's use Copilot to perform data cleansing.**
 
 8. Click on the **Copilot** button, paste the **prompt** provided below in the text box and click on the **send** icon.
 
