@@ -13,7 +13,7 @@ Delta Live Tables (DLT) allow you to build and manage reliable data pipelines th
 
 ![Databricks.](mediaNew/task-2.2.1new.png)
 
-3.	In the left navigation pane click on **Delta Live Table** 
+3.Scroll down in the left navigation pane and click on **Delta Live Table.** 
 
 ![Databricks.](mediaNew/task-2.2.2new.png)
 
@@ -42,9 +42,7 @@ DLT_Pipeline
 
 ![Databricks.](mediaNew/task-2.2.5new.png)
 
->**Note**: Due to time constraints we have pre-loaded the output tables in your Databricks. We will not be executing this pipeline.
-
->**Note**: Do not click on the Start button.
+>**Note**: Do not click on the Start button. Due to time constraints we have pre-loaded the output tables in your Databricks. We will not be executing this pipeline.
 
 14. Had you clicked on the Start button, you would have seen the result similar to the following screenshot.
 
