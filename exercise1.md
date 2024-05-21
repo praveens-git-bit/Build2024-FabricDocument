@@ -190,7 +190,7 @@ Note: *Click on the collapse icon, as shown in the screenshot below, for better 
 
 ![Lakehouse.](mediaNew/task-1.3-ext-shortcut5.png)
 
-**Note**: Due the the screen size of VM, user will not able to see left navigation bar, please click on the "Hamburger sign* from the above to navigate to the **Security + Networking** and click on the expand button.
+**Note**: Due the the screen size of VM, user will not able to see left navigation bar, please click on the **Hamburger sign** from the above to navigate to the **Security + Networking** and click on the expand button.
 
 11. Expand the **Security + networking** section and click on **Access keys**.
 
@@ -214,7 +214,7 @@ Note: *Click on the collapse icon, as shown in the screenshot below, for better 
 ```
 17. In the **Authentiation kind** dropdown, select **Account Key**.
 
-18. Paste the **account key** copied in **step number 14**.
+18. Paste the **account key** copied in **step number 13**.
 
 19. Click on **Next**.
 
