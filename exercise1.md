@@ -1,7 +1,7 @@
 
 ### Exercise 1: Data Engineering experience - Data ingestion from a spectrum of analytical data sources into OneLake
 
-*Before we start executing the steps, we will trigger the simulator app to start streaming data to eventhub.*
+*Before we start executing the steps, we will trigger the simulator app to start streaming data to Eventhub* (**to be used later in exercise 4**).
 
 1. Copy the URL below and paste it in the browser to get the streaming started.
 ```BASH
