@@ -103,17 +103,15 @@ Note: *If the **copy data assistant** is not visible in the screen, please scrol
 
 ![Pipeline.](mediaNew/task-1.3.4.png)
 
-10. Click on **view more** in the **new source** section.
+9. Click on **+New** tab.
+    
+10. We already have 40+ connectors available for the data pipeline from a spectrum of sources in **Microsoft Fabric**.
 
-   ![Pipeline.](mediaNew/newsourceviewmore.png)
-
-11. We already have 40+ connectors available for the data pipeline from a spectrum of sources in **Microsoft Fabric**.
-
-12. Click on **X** icon in the **upper right corner** of the pop-up. Click on Cancel.
+11. Click on **X** icon in the **upper right corner** of the pop-up. Click on Cancel.
     
 Note: *If the close button is not visible, please slide right from the below slider and close the pop up.*
 
-   ![Pipeline.](mediaNew/datasources-fabric.png)
+   ![Pipeline.](mediaNew/datasources-fabricS1.png)
 
 13. Click on the 'Yes,Cancel' button.
 
