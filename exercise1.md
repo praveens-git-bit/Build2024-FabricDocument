@@ -75,37 +75,21 @@ Now, let's see how each department can easily create a Lakehouse in the Contoso 
 
 ![Close the browser.](mediaNew/task-1.2.3.png)
 
-5. Open a new tab on your browser and navigate to Microsoft Fabric at 
-```BASH
-https://app.fabric.microsoft.com
-```
-**Note**: If you are seeing "Enter your email, we'll check if you need to create a new account" please provide the email ID you provided to signin into Azure.
-
-```BASH
-<inject key= "AzureAdUserEmail" enableCopy="true"/>
-```
-
-![Pipeline.](mediaNew/fabricverify.png)
-
-6. On the Microsoft Fabric landing page, click on the **Data Factory** experience.
-
-![Pipeline.](mediaNew/task-1.3.01.png)
-
-7. Click on **Workspaces** and select the **contosoSales...** workspace.
+5. Click on **Workspaces** and select the **contosoSales...** workspace.
 
 ![Create Power BI Workspace.](mediaNew/task-1.1-new4.png)
 
-8. Click the **Data Factory** icon in the bottom left corner of the screen to select **Data Factory**.
+6. Click the **Data Factory** icon in the bottom left corner of the screen to select **Data Factory**.
 
 ![Pipeline.](mediaNew/task-1.3.1.png)
 
-9. Click on **Data pipeline**.
+7. Click on **Data pipeline**.
 
 ![Pipeline.](mediaNew/task-1.3.2.png)
 
-Note: "Wait for the **New pipeline** pop-up box to appear and change the pre-provided name using the steps below.
+Note: "Wait for the **New pipeline** pop-up box to appear and remove the pre-provided name from the text box.
 
-10. In the pop-up, type the pipeline name **Azure SQL DB Pipeline** and click on the **Create** button.
+8. In the New Pipeline pop-up, type the pipeline name **Azure SQL DB Pipeline** and click on the **Create** button.
 
 ```BASH
 Azure SQL DB Pipeline
@@ -113,31 +97,31 @@ Azure SQL DB Pipeline
 
 ![Pipeline.](mediaNew/task-1.3.3.png)
 
-11. In the Data pipeline window, click on **Copy data assistant**.
+9. In the Data pipeline window, click on **Copy data assistant**.
 
 Note: *If the **copy data assistant** is not visible in the screen, please scroll up.*
 
 ![Pipeline.](mediaNew/task-1.3.4.png)
 
-12. Click on **view more** in the **new source** section.
+10. Click on **view more** in the **new source** section.
 
    ![Pipeline.](mediaNew/newsourceviewmore.png)
 
-13. We already have 40+ connectors available for the data pipeline from a spectrum of sources in **Microsoft Fabric**.
+11. We already have 40+ connectors available for the data pipeline from a spectrum of sources in **Microsoft Fabric**.
 
-14. Click on **X** icon in the **upper right corner** of the pop-up. Click on Cancel.
+12. Click on **X** icon in the **upper right corner** of the pop-up. Click on Cancel.
     
 Note: *If the close button is not visible, please slide right from the below slider and close the pop up.*
 
    ![Pipeline.](mediaNew/datasources-fabric.png)
 
-14. Click on the 'Yes,Cancel' button.
+13. Click on the 'Yes,Cancel' button.
 
    ![Pipeline.](mediaNew/yes-cancel.png)
 
 Note: *Due to time constraints, we will not be creating a Data pipeline at this time. You can perform this optional step (found in the appendix) later.*
 
-15. Similarly, you can get data into the Lakehouses using pipelines from a variety of other sources like Snowflake, Dataverse, etc. Your next task is to ingest website bounce rate data from the acquired company Litware Inc.
+14. Similarly, you can get data into the Lakehouses using pipelines from a variety of other sources like Snowflake, Dataverse, etc. Your next task is to ingest website bounce rate data from the acquired company Litware Inc.
 
 ---
 
