@@ -25,14 +25,15 @@ Note: *Wait for the new Eventhouse to popup.*
 
 ![Close the browser.](mediaNew/eventhouse1.png)
 
-4. Enter the name **Contoso-Eventhouse**, click on the **Create** button and wait for the database to be created.
+4. Enter the name **Contoso-Eventhouse**.
+5. Click on the **Create** button and wait for the database to be created.
 
 ```BASH
 Contoso-Eventhouse
 ```
 ![Close the browser.](mediaNew/eventhouse2.png)
 
-**Note:** If you see a pop-up like the one in the screenshot below, ignore it  by clicking on **get started** and proceed with the next step.
+**Note:** If you see a pop-up like the one in the screenshot below, ignore it and proceed with the next step.
 
 ![Close the browser.](mediaNew/eventhouse16.png)
 
