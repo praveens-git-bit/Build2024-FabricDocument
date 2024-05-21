@@ -99,7 +99,7 @@ Note: *If the **copy data assistant** is not visible in the screen, please scrol
 
 >**Note** You may not see the **Azure SQL Database** in the same location as shown in the screenshot.
 
-![Pipeline.](mediaNew/datasources-fabric.png)
+![Pipeline.](mediaNew/pip3.png)
 
 19. Select the **Create new connection** radio button.
 
