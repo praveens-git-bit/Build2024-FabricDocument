@@ -311,8 +311,14 @@ Note: If you see **New Query** in place of **Get Data**, click on drop down and 
 
 ![Datawarehouse.](mediaNew/df1.png)
 
-9. Similarly, you can paste the following prompts in Copilot for data transformation.
+9. Scroll to the right hand side and observe the **GrossRevenue** and **NetRevenue** columns (**there are some empty rows with null values**).
 
+![Datawarehouse.](mediaNew/DFData12.png)
+
+**Let's use Copilot to remove empty rows.**
+
+10. Similarly, paste the prompt below in Copilot and click on the send icon.
+    
 ```BASH
 In the table sales_data csv, remove empty rows from GrossRevenue and NetRevenue columns.
 ```
