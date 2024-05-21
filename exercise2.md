@@ -44,7 +44,7 @@ DLT_Pipeline
 
 >**Note**: Do not click on the Start button. Due to time constraints we have pre-loaded the output tables in your Databricks. We will not be executing this pipeline.
 
-14. Had you clicked on the Start button, you would have seen the result similar to the following screenshot.
+14. If you were clicked on the Start button, you would have seen a result similar to the one in the following screenshot. Click on the screenshot for a better view.
 
 ![Databricks.](mediaNew/task-2.2.7.png)
 
