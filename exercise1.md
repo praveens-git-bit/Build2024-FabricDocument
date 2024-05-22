@@ -105,9 +105,13 @@ Note: *If the **copy data assistant** is not visible in the screen, please scrol
 
 9. Click on **+New** tab.
     
-10. We already have 40+ connectors available for the data pipeline from a spectrum of sources in **Microsoft Fabric**.
+Note: *If you are not able to see **+New** click on **three dots (Elipse).***
 
-11. Click on **X** icon in the **upper right corner** of the pop-up. Click on Cancel.
+   ![Pipeline.](mediaNew/neweclipse.png)
+    
+11. We already have 40+ connectors available for the data pipeline from a spectrum of sources in **Microsoft Fabric**.
+
+12. Click on **X** icon in the **upper right corner** of the pop-up. Click on Cancel.
     
 Note: *If the close button is not visible, please slide right from the below slider and close the pop up.*
 
